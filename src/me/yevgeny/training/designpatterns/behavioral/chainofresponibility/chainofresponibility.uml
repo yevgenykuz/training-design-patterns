@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>me.yevgeny.training.designpatterns.behavioral.chainofresponibility</OriginalElement>
+  <nodes>
+    <node x="469.1951058201058" y="123.0">me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Request</node>
+    <node x="473.3125" y="0.0">me.yevgeny.training.designpatterns.behavioral.chainofresponibility.RequestType</node>
+    <node x="486.0" y="413.0">me.yevgeny.training.designpatterns.behavioral.chainofresponibility.CEO</node>
+    <node x="243.0" y="413.0">me.yevgeny.training.designpatterns.behavioral.chainofresponibility.VP</node>
+    <node x="0.0" y="413.0">me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Director</node>
+    <node x="466.29305555555555" y="544.0">me.yevgeny.training.designpatterns.behavioral.chainofresponibility.ChainOfResponsibilityDemo</node>
+    <node x="243.74305555555557" y="279.0">me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Handler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Director" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.RequestType">
+      <point x="-83.625" y="-25.5" />
+      <point x="27.875" y="393.0" />
+      <point x="54.64120370370364" y="393.0" />
+      <point x="54.64120370370364" y="93.0" />
+      <point x="484.9125" y="93.0" />
+      <point x="-46.39999999999998" y="36.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.ChainOfResponsibilityDemo" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.RequestType">
+      <point x="87.55555555555554" y="-25.5" />
+      <point x="652.348611111111" y="524.0" />
+      <point x="753.6412037037037" y="524.0" />
+      <point x="753.6412037037037" y="93.0" />
+      <point x="577.7125" y="93.0" />
+      <point x="46.39999999999998" y="36.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.CEO" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Handler">
+      <point x="-55.75" y="-25.5" />
+      <point x="541.75" y="383.0" />
+      <point x="444.4430555555555" y="383.0" />
+      <point x="89.19999999999993" y="37.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.VP" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Request">
+      <point x="83.625" y="-25.5" />
+      <point x="438.125" y="393.0" />
+      <point x="517.2768518518519" y="393.0" />
+      <point x="517.2768518518519" y="259.0" />
+      <point x="566.2784391534392" y="259.0" />
+      <point x="-19.41666666666663" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.VP" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Handler">
+      <point x="27.875" y="-25.5" />
+      <point x="382.375" y="393.0" />
+      <point x="399.84305555555557" y="393.0" />
+      <point x="44.599999999999966" y="37.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Handler" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Request">
+      <point x="0.0" y="-37.0" />
+      <point x="355.24305555555554" y="249.0" />
+      <point x="527.4451058201058" y="249.0" />
+      <point x="-58.25" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.ChainOfResponsibilityDemo" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.CEO">
+      <point x="0.0" y="-25.5" />
+      <point x="564.7930555555556" y="484.0" />
+      <point x="541.75" y="484.0" />
+      <point x="-55.75" y="25.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.VP" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.RequestType">
+      <point x="-83.625" y="-25.5" />
+      <point x="270.875" y="373.0" />
+      <point x="89.86878306878305" y="373.0" />
+      <point x="89.86878306878305" y="103.0" />
+      <point x="508.1125" y="103.0" />
+      <point x="-23.19999999999999" y="36.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Director" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Request">
+      <point x="-27.875" y="-25.5" />
+      <point x="83.625" y="393.0" />
+      <point x="110.32711640211636" y="393.0" />
+      <point x="110.32711640211636" y="239.0" />
+      <point x="488.61177248677245" y="239.0" />
+      <point x="-97.08333333333337" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Request" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.RequestType">
+      <point x="58.25" y="-48.0" />
+      <point x="643.9451058201058" y="103.0" />
+      <point x="554.5125" y="103.0" />
+      <point x="23.200000000000045" y="36.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.CEO" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Request">
+      <point x="55.749999999999986" y="-25.5" />
+      <point x="653.25" y="259.0" />
+      <point x="605.1117724867725" y="259.0" />
+      <point x="19.41666666666663" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Director" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Handler">
+      <point x="27.875" y="-25.5" />
+      <point x="139.375" y="383.0" />
+      <point x="266.0430555555556" y="383.0" />
+      <point x="-89.19999999999999" y="37.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.ChainOfResponsibilityDemo" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Request">
+      <point x="65.66666666666663" y="-25.5" />
+      <point x="630.4597222222221" y="514.0" />
+      <point x="740.1666666666667" y="514.0" />
+      <point x="740.1666666666667" y="239.0" />
+      <point x="682.7784391534392" y="239.0" />
+      <point x="97.08333333333337" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.ChainOfResponsibilityDemo" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Director">
+      <point x="-65.66666666666663" y="-25.5" />
+      <point x="499.1263888888889" y="514.0" />
+      <point x="167.25" y="514.0" />
+      <point x="55.75" y="25.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.ChainOfResponsibilityDemo" target="me.yevgeny.training.designpatterns.behavioral.chainofresponibility.VP">
+      <point x="-43.777777777777715" y="-25.5" />
+      <point x="521.0152777777778" y="504.0" />
+      <point x="298.75" y="504.0" />
+      <point x="-55.75" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="378.0" y="297.5" />
+  <SelectedNodes>
+    <node>me.yevgeny.training.designpatterns.behavioral.chainofresponibility.Request</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

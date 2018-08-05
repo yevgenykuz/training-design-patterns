@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>me.yevgeny.training.designpatterns.structural.composite</OriginalElement>
+  <nodes>
+    <node x="0.0" y="257.0">me.yevgeny.training.designpatterns.structural.composite.MenuItem</node>
+    <node x="66.875" y="0.0">me.yevgeny.training.designpatterns.structural.composite.MenuComponent</node>
+    <node x="132.875" y="403.0">me.yevgeny.training.designpatterns.structural.composite.CompositeDemo</node>
+    <node x="223.0" y="235.0">me.yevgeny.training.designpatterns.structural.composite.Menu</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.yevgeny.training.designpatterns.structural.composite.MenuItem" target="me.yevgeny.training.designpatterns.structural.composite.MenuComponent">
+      <point x="-50.75" y="-37.0" />
+      <point x="50.75" y="210.0" />
+      <point x="104.5" y="210.0" />
+      <point x="-112.875" y="92.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.composite.Menu" target="me.yevgeny.training.designpatterns.structural.composite.MenuComponent">
+      <point x="59.5" y="-59.0" />
+      <point x="401.5" y="210.0" />
+      <point x="330.25" y="210.0" />
+      <point x="112.875" y="92.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.composite.CompositeDemo" target="me.yevgeny.training.designpatterns.structural.composite.MenuItem">
+      <point x="-21.125" y="-25.5" />
+      <point x="196.25" y="373.0" />
+      <point x="152.25" y="373.0" />
+      <point x="50.75" y="37.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.composite.CompositeDemo" target="me.yevgeny.training.designpatterns.structural.composite.Menu">
+      <point x="21.125" y="-25.5" />
+      <point x="238.5" y="373.0" />
+      <point x="282.5" y="373.0" />
+      <point x="-59.5" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="230.5" y="227.0" />
+  <SelectedNodes>
+    <node>me.yevgeny.training.designpatterns.structural.composite.Menu</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>me.yevgeny.training.designpatterns.behavioral.iterator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">me.yevgeny.training.designpatterns.behavioral.iterator.BikeRepository</node>
+    <node x="17.0" y="191.0">me.yevgeny.training.designpatterns.behavioral.iterator.IteratorDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.iterator.IteratorDemo" target="me.yevgeny.training.designpatterns.behavioral.iterator.BikeRepository">
+      <point x="-42.25" y="-25.5" />
+      <point x="59.25" y="166.0" />
+      <point x="50.75" y="166.0" />
+      <point x="-50.75" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="101.5" y="121.0" />
+  <SelectedNodes>
+    <node>me.yevgeny.training.designpatterns.behavioral.iterator.BikeRepository</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

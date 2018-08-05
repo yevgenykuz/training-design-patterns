@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>me.yevgeny.training.designpatterns.behavioral.strategy</OriginalElement>
+  <nodes>
+    <node x="114.0" y="0.0">me.yevgeny.training.designpatterns.behavioral.strategy.ValidationStrategy</node>
+    <node x="0.0" y="123.0">me.yevgeny.training.designpatterns.behavioral.strategy.VisaStrategy</node>
+    <node x="278.0" y="219.0">me.yevgeny.training.designpatterns.behavioral.strategy.StrategyDemo</node>
+    <node x="234.0" y="123.0">me.yevgeny.training.designpatterns.behavioral.strategy.AmexStrategy</node>
+    <node x="0.0" y="219.0">me.yevgeny.training.designpatterns.behavioral.strategy.CreditCard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.strategy.AmexStrategy" target="me.yevgeny.training.designpatterns.behavioral.strategy.ValidationStrategy">
+      <point x="0.0" y="-25.5" />
+      <point x="341.0" y="98.0" />
+      <point x="279.0" y="98.0" />
+      <point x="55.0" y="36.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.strategy.VisaStrategy" target="me.yevgeny.training.designpatterns.behavioral.strategy.ValidationStrategy">
+      <point x="0.0" y="-25.5" />
+      <point x="107.0" y="98.0" />
+      <point x="169.0" y="98.0" />
+      <point x="-55.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="224.0" y="191.0" />
+  <SelectedNodes>
+    <node>me.yevgeny.training.designpatterns.behavioral.strategy.AmexStrategy</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

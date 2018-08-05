@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>me.yevgeny.training.designpatterns.structural.bridge</OriginalElement>
+  <nodes>
+    <node x="503.7135281385282" y="603.0">me.yevgeny.training.designpatterns.structural.bridge.BridgeDemo</node>
+    <node x="497.2890963203463" y="0.0">me.yevgeny.training.designpatterns.structural.bridge.Detail</node>
+    <node x="767.7760281385282" y="257.0">me.yevgeny.training.designpatterns.structural.bridge.Movie</node>
+    <node x="0.0" y="290.0">me.yevgeny.training.designpatterns.structural.bridge.PrintFormatter</node>
+    <node x="537.0" y="268.0">me.yevgeny.training.designpatterns.structural.bridge.Printer</node>
+    <node x="371.50000000000006" y="156.0">me.yevgeny.training.designpatterns.structural.bridge.Formatter</node>
+    <node x="268.00000000000006" y="290.0">me.yevgeny.training.designpatterns.structural.bridge.HtmlFormatter</node>
+    <node x="658.7135281385282" y="424.0">me.yevgeny.training.designpatterns.structural.bridge.MoviePrinter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.PrintFormatter" target="me.yevgeny.training.designpatterns.structural.bridge.Formatter">
+      <point x="62.0" y="-25.5" />
+      <point x="186.0" y="232.0" />
+      <point x="402.50000000000006" y="232.0" />
+      <point x="-93.0" y="25.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.HtmlFormatter" target="me.yevgeny.training.designpatterns.structural.bridge.Detail">
+      <point x="-62.0" y="-25.5" />
+      <point x="330.00000000000006" y="126.0" />
+      <point x="541.7890963203463" y="126.0" />
+      <point x="-44.5" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.MoviePrinter" target="me.yevgeny.training.designpatterns.structural.bridge.Movie">
+      <point x="39.200000000000045" y="-59.5" />
+      <point x="795.9135281385282" y="399.0" />
+      <point x="787.1510281385282" y="399.0" />
+      <point x="-58.125" y="58.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.HtmlFormatter" target="me.yevgeny.training.designpatterns.structural.bridge.Formatter">
+      <point x="62.0" y="-25.5" />
+      <point x="454.00000000000006" y="232.0" />
+      <point x="464.50000000000006" y="232.0" />
+      <point x="-31.0" y="25.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.BridgeDemo" target="me.yevgeny.training.designpatterns.structural.bridge.Movie">
+      <point x="48.285714285714334" y="-25.5" />
+      <point x="636.4992424242425" y="573.0" />
+      <point x="878.5260281385282" y="573.0" />
+      <point x="878.5260281385282" y="399.0" />
+      <point x="864.6510281385282" y="399.0" />
+      <point x="19.375" y="58.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.BridgeDemo" target="me.yevgeny.training.designpatterns.structural.bridge.HtmlFormatter">
+      <point x="-48.285714285714334" y="-25.5" />
+      <point x="539.9278138528139" y="573.0" />
+      <point x="392.00000000000006" y="573.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.Printer" target="me.yevgeny.training.designpatterns.structural.bridge.Formatter">
+      <point x="-49.0" y="-47.5" />
+      <point x="586.0" y="232.0" />
+      <point x="588.5" y="232.0" />
+      <point x="93.0" y="25.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.BridgeDemo" target="me.yevgeny.training.designpatterns.structural.bridge.Printer">
+      <point x="0.0" y="-25.5" />
+      <point x="588.2135281385282" y="583.0" />
+      <point x="586.0" y="583.0" />
+      <point x="-49.0" y="47.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.Printer" target="me.yevgeny.training.designpatterns.structural.bridge.Detail">
+      <point x="49.0" y="-47.5" />
+      <point x="684.0" y="136.0" />
+      <point x="601.1224296536797" y="136.0" />
+      <point x="14.833333333333371" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.BridgeDemo" target="me.yevgeny.training.designpatterns.structural.bridge.Formatter">
+      <point x="-24.142857142857224" y="-25.5" />
+      <point x="564.070670995671" y="563.0" />
+      <point x="526.5" y="563.0" />
+      <point x="31.0" y="25.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.BridgeDemo" target="me.yevgeny.training.designpatterns.structural.bridge.MoviePrinter">
+      <point x="24.14285714285711" y="-25.5" />
+      <point x="612.3563852813853" y="563.0" />
+      <point x="756.7135281385282" y="563.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.PrintFormatter" target="me.yevgeny.training.designpatterns.structural.bridge.Detail">
+      <point x="-62.0" y="-25.5" />
+      <point x="62.00000000000006" y="116.0" />
+      <point x="512.1224296536797" y="116.0" />
+      <point x="-74.16666666666663" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.MoviePrinter" target="me.yevgeny.training.designpatterns.structural.bridge.Detail">
+      <point x="0.0" y="-59.5" />
+      <point x="756.7135281385282" y="399.0" />
+      <point x="754.5" y="399.0" />
+      <point x="754.5" y="116.0" />
+      <point x="660.455762987013" y="116.0" />
+      <point x="74.16666666666674" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.Formatter" target="me.yevgeny.training.designpatterns.structural.bridge.Detail">
+      <point x="0.0" y="-25.5" />
+      <point x="495.50000000000006" y="136.0" />
+      <point x="571.4557629870129" y="136.0" />
+      <point x="-14.833333333333371" y="48.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.MoviePrinter" target="me.yevgeny.training.designpatterns.structural.bridge.Printer">
+      <point x="-78.39999999999998" y="-59.5" />
+      <point x="678.3135281385282" y="399.0" />
+      <point x="684.0" y="399.0" />
+      <point x="49.0" y="47.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.structural.bridge.BridgeDemo" target="me.yevgeny.training.designpatterns.structural.bridge.PrintFormatter">
+      <point x="-72.42857142857144" y="-25.5" />
+      <point x="515.7849567099568" y="583.0" />
+      <point x="124.00000000000006" y="583.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="461.5" y="327.0" />
+  <SelectedNodes>
+    <node>me.yevgeny.training.designpatterns.structural.bridge.BridgeDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>me.yevgeny.training.designpatterns.creational.singelton</OriginalElement>
+  <nodes>
+    <node x="338.0" y="147.0">me.yevgeny.training.designpatterns.creational.singelton.SingeltonDemo</node>
+    <node x="308.0" y="0.0">me.yevgeny.training.designpatterns.creational.singelton.DbSingeltonLazy</node>
+    <node x="557.0" y="0.0">me.yevgeny.training.designpatterns.creational.singelton.DbSingeltonEager</node>
+    <node x="0.0" y="0.0">me.yevgeny.training.designpatterns.creational.singelton.DbSingeltonLazyThreadSafe</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.yevgeny.training.designpatterns.creational.singelton.SingeltonDemo" target="me.yevgeny.training.designpatterns.creational.singelton.DbSingeltonLazyThreadSafe">
+      <point x="-56.33333333333337" y="-25.5" />
+      <point x="366.16666666666663" y="122.0" />
+      <point x="144.0" y="122.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.creational.singelton.SingeltonDemo" target="me.yevgeny.training.designpatterns.creational.singelton.DbSingeltonLazy">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.creational.singelton.SingeltonDemo" target="me.yevgeny.training.designpatterns.creational.singelton.DbSingeltonEager">
+      <point x="56.333333333333314" y="-25.5" />
+      <point x="478.8333333333333" y="122.0" />
+      <point x="674.5" y="122.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="396.0" y="99.0" />
+  <SelectedNodes>
+    <node>me.yevgeny.training.designpatterns.creational.singelton.SingeltonDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
