@@ -8,7 +8,7 @@ package me.yevgeny.training.designpatterns.creational.singelton;
  * @author Yevgeny Kuznetsov
  */
 public class DbSingeltonLazyThreadSafe {
-    /** The instance variable should be volatile  */
+    /** The instance variable should be volatile */
     private static volatile DbSingeltonLazyThreadSafe instance = null;
 
     private DbSingeltonLazyThreadSafe() {
@@ -26,8 +26,6 @@ public class DbSingeltonLazyThreadSafe {
      * <p>
      * Instead, we will create an inner synchronized block. This time, the class will be synchronized only when the
      * instance is created for the first time.
-     *
-     * @return
      */
     public static DbSingeltonLazyThreadSafe getInstance() {
         if (null == instance) {

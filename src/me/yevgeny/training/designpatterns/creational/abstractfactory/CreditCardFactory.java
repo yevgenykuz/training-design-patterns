@@ -22,5 +22,4 @@ public abstract class CreditCardFactory {
     public abstract CreditCard getCreditCard(CardType cardType);
 
     public abstract Validator getValidator(CardType cardType);
-
 }

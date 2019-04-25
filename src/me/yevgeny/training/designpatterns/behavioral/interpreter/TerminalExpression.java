@@ -3,7 +3,7 @@ package me.yevgeny.training.designpatterns.behavioral.interpreter;
 import java.util.StringTokenizer;
 
 /**
- * This represents the expression that compares a word that's defined in the interpreterTree rule set (grammer) to the
+ * This represents the expression that compares a word that's defined in the interpreterTree rule set (grammar) to the
  * data - one word at a time (using a stringTokenizer).
  * <p>
  * It is a terminal expression - a final decision is made here.

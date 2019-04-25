@@ -12,20 +12,10 @@ public class Detail {
         this.value = value;
     }
 
-    /**
-     * Gets the label
-     *
-     * @return value of label
-     */
     public String getLabel() {
         return label;
     }
 
-    /**
-     * Gets the value
-     *
-     * @return value of value
-     */
     public String getValue() {
         return value;
     }

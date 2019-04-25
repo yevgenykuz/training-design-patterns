@@ -20,11 +20,6 @@ public abstract class Website {
 
     public abstract void createWebsite();
 
-    /**
-     * Gets the pages
-     *
-     * @return value of pages
-     */
     public List<Page> getPages() {
         return pages;
     }

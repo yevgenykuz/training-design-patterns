@@ -11,8 +11,6 @@ package me.yevgeny.training.designpatterns.structural.decorator;
 public class DressingDecorator extends SandwichDecorator {
     /**
      * Can accept other decorators as well, allowing to daisy-chain decorators
-     *
-     * @param customSandwich
      */
     public DressingDecorator(Sandwich customSandwich) {
         // we call the base decorator, allowing decoration through composition, by modifying the "SandwichDecorator"s

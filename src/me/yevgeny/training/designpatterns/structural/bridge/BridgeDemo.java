@@ -18,7 +18,7 @@ public class BridgeDemo {
         // We create a new formatter of a specific type we need to be used with the moviePrinter:
         Formatter printFormatter = new PrintFormatter();
 
-        /**
+        /*
          * The bridge:
          * printFormatter and moviePrinter now nothing about each other. Each one can be changed independently.
          */
@@ -31,7 +31,7 @@ public class BridgeDemo {
         // We create another formatter of a different specific type we need to be used with the moviePrinter:
         Formatter htmlFormatter = new HtmlFormatter();
 
-        /**
+        /*
          * The bridge:
          * We can create as many "Formatter" types as we want without creating more "Printer" types, and vice versa.
          */

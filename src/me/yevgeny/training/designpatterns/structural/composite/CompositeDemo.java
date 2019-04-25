@@ -6,7 +6,6 @@ package me.yevgeny.training.designpatterns.structural.composite;
 public class CompositeDemo {
 
     public static void main(String[] args) {
-
         Menu mainMenu = new Menu("Main", "/main");
 
         MenuItem safetyMenuItem = new MenuItem("Safety", "/safety");
@@ -27,6 +26,5 @@ public class CompositeDemo {
         claimsSubMenu.remove(personalClaim);
         System.out.println("Personal Claim removed:");
         System.out.println(mainMenu.toString());
-
     }
 }

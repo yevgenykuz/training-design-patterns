@@ -8,8 +8,8 @@ package me.yevgeny.training.designpatterns.behavioral.interpreter;
  * @author Yevgeny Kuznetsov
  */
 public class AndExpression implements Expression {
-    private Expression expression1 = null;
-    private Expression expression2 = null;
+    private Expression expression1;
+    private Expression expression2;
 
     public AndExpression(Expression expression1, Expression expression2) {
         this.expression1 = expression1;

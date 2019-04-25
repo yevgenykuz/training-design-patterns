@@ -9,7 +9,7 @@ public abstract class ValidationStrategy {
     public abstract boolean isValid(CreditCard creditCard);
 
     /** Used to validate credit card number - https://en.wikipedia.org/wiki/Luhn_algorithm */
-    protected boolean passessLuhn(String ccNumber) {
+    protected boolean passesLuhn(String ccNumber) {
         int sum = 0;
         boolean alternate = false;
         for (int i = ccNumber.length() - 1; i >= 0; i--) {

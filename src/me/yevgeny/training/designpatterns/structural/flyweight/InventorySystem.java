@@ -13,8 +13,6 @@ public class InventorySystem {
     /**
      * A lookup is performed in the catalog to re-use previously created Item objects that match the given itemName.
      *
-     * @param itemName
-     * @param orderNumber
      * @see Catalog
      */
     void takeOrder(String itemName, int orderNumber) {

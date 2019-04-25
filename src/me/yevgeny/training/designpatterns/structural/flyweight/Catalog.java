@@ -16,10 +16,6 @@ public class Catalog {
      * To save memory, a new Item object is created only if itemName is new.
      * <p>
      * An old Item object will be returned and reused if itemName was used already.
-     *
-     * @param itemName
-     *
-     * @return
      */
     public Item lookup(String itemName) {
         if (!items.containsKey(itemName)) {

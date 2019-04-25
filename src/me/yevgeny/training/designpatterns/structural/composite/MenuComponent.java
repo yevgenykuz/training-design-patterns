@@ -35,20 +35,10 @@ public abstract class MenuComponent {
         throw new UnsupportedOperationException("Feature not implemented for this type");
     }
 
-    /**
-     * Gets the name
-     *
-     * @return value of name
-     */
     public String getName() {
         return name;
     }
 
-    /**
-     * Gets the url
-     *
-     * @return value of url
-     */
     public String getUrl() {
         return url;
     }
@@ -65,10 +55,6 @@ public abstract class MenuComponent {
      * @return value of name
      */
     String print(MenuComponent menuComponent) {
-        StringBuilder stringBuilder = new StringBuilder(getName());
-        stringBuilder.append(": ");
-        stringBuilder.append(getUrl());
-        stringBuilder.append(System.lineSeparator());
-        return stringBuilder.toString();
+        return menuComponent.getName() + ": " + menuComponent.getUrl() + System.lineSeparator();
     }
 }

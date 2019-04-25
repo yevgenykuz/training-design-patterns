@@ -16,18 +16,13 @@ public class Registry {
 
     /**
      * Here we demonstrate the prototype design pattern by using the clone() method of the item prototype.
-     *
-     * @param type
-     *
-     * @return
      */
     public Item createItem(String type) {
         Item item = null;
 
         try {
-            /** we must cast this because clone() from the Clonable interface  returns an object, and doesn't use
-             * generics.
-             * We can implement our own interface to prevent this.
+            /* We must cast this because clone() from the Cloneable interface returns an object, and
+             * doesn't use generics. We can implement our own interface to prevent this.
              */
             item = (Item) (items.get(type)).clone();
         } catch (CloneNotSupportedException e) {

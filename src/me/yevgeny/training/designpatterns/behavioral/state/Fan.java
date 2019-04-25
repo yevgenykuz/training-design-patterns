@@ -10,12 +10,12 @@ package me.yevgeny.training.designpatterns.behavioral.state;
  */
 public class Fan {
 
-    State fanOffState;
-    State fanLowState;
-    State fanMedState;
-    State fanHighState;
+    private State fanOffState;
+    private State fanLowState;
+    private State fanMedState;
+    private State fanHighState;
 
-    State state;
+    private State state;
 
     public Fan() {
         fanOffState = new FanOffState(this);

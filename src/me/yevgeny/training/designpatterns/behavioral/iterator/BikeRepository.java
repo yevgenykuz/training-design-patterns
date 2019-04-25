@@ -32,7 +32,7 @@ public class BikeRepository implements Iterable<String> {
     /** Actual iterator implementation */
     @Override
     public Iterator<String> iterator() {
-        Iterator<String> iterator = new Iterator<String>() {
+        return new Iterator<String>() {
 
             private int currentIndex = 0;
 
@@ -49,7 +49,5 @@ public class BikeRepository implements Iterable<String> {
                 return bikes[currentIndex++];
             }
         };
-
-        return iterator;
     }
 }

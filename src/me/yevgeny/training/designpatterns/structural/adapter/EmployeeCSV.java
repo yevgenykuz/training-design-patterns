@@ -3,7 +3,7 @@ package me.yevgeny.training.designpatterns.structural.adapter;
 import java.util.StringTokenizer;
 
 /**
- * * This class represent legacy code and cannot be changed, but this time <b>does not</b> implement the Employee
+ * This class represent legacy code and cannot be changed, but this time <b>does not</b> implement the Employee
  * interface.
  * <p> An adapter design pattern will applied to work with this class just with the current EmployeeClient.
  *
@@ -33,38 +33,18 @@ public class EmployeeCSV {
         }
     }
 
-    /**
-     * Gets the id
-     *
-     * @return value of id
-     */
     public int getId() {
         return id;
     }
 
-    /**
-     * Gets the firstName
-     *
-     * @return value of firstName
-     */
     public String getFirstName() {
         return firstName;
     }
 
-    /**
-     * Gets the lastName
-     *
-     * @return value of lastName
-     */
     public String getLastName() {
         return lastName;
     }
 
-    /**
-     * Gets the emailAddress
-     *
-     * @return value of emailAddress
-     */
     public String getEmailAddress() {
         return emailAddress;
     }

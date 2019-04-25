@@ -1,7 +1,7 @@
 package me.yevgeny.training.designpatterns.behavioral.mediator;
 
 /**
- * This is another concrete command. It holds a mediator reference and uses it to perform actions on lights.
+ * This is a concrete command. It holds a mediator reference and uses it to perform actions on lights.
  * <p>
  * There is no reference to the lights themselves.
  *

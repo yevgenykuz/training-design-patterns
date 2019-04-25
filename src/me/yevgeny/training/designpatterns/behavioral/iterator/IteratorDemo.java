@@ -7,7 +7,6 @@ import java.util.Iterator;
  */
 public class IteratorDemo {
     public static void main(String[] args) {
-
         BikeRepository bikeRepository = new BikeRepository();
 
         bikeRepository.addBike("BMW");

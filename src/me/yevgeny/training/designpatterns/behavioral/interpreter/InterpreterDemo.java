@@ -25,7 +25,6 @@ public class InterpreterDemo {
     }
 
     public static void main(String[] args) {
-
         // Creates the possible expressions tree:
         Expression define = buildInterpreterTree();
 
@@ -40,6 +39,5 @@ public class InterpreterDemo {
         // Bears and Tigers is an acceptable expression:
         context = "Bears Tigers";
         System.out.println(String.format("%s is %s", context, define.interpret(context)));
-
     }
 }

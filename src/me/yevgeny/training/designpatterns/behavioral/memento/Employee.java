@@ -22,59 +22,26 @@ public class Employee {
         this.phone = employeeMemento.getPhone();
     }
 
-    /**
-     * Gets the name
-     *
-     * @return value of name
-     */
     public String getName() {
         return name;
     }
 
-    /**
-     * Sets the name
-     *
-     * @param name
-     *         the name
-     */
     public void setName(String name) {
         this.name = name;
     }
 
-    /**
-     * Gets the address
-     *
-     * @return value of address
-     */
     public String getAddress() {
         return address;
     }
 
-    /**
-     * Sets the address
-     *
-     * @param address
-     *         the address
-     */
     public void setAddress(String address) {
         this.address = address;
     }
 
-    /**
-     * Gets the phone
-     *
-     * @return value of phone
-     */
     public String getPhone() {
         return phone;
     }
 
-    /**
-     * Sets the phone
-     *
-     * @param phone
-     *         the phone
-     */
     public void setPhone(String phone) {
         this.phone = phone;
     }

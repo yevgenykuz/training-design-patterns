@@ -5,7 +5,6 @@ package me.yevgeny.training.designpatterns.behavioral.mediator;
  */
 public class MediatorDemo {
     public static void main(String[] args) {
-
         Mediator mediator = new Mediator();
 
         Light bedroomLight = new Light("Bedroom");

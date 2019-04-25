@@ -15,8 +15,6 @@ public abstract class SandwichDecorator implements Sandwich {
 
     /**
      * Can accept other decorators as well, allowing to daisy-chain decorators
-     *
-     * @param customSandwich
      */
     public SandwichDecorator(Sandwich customSandwich) {
         this.customSandwich = customSandwich;

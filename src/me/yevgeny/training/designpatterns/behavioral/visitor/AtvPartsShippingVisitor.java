@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class AtvPartsShippingVisitor implements AtvPartVisitor {
 
-    double shippingAmount = 0;
+    private double shippingAmount = 0;
 
     @Override
     public void visit(Fender fender) {

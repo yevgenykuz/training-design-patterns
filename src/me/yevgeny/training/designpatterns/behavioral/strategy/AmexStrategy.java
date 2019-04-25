@@ -8,7 +8,7 @@ package me.yevgeny.training.designpatterns.behavioral.strategy;
 public class AmexStrategy extends ValidationStrategy {
     @Override
     public boolean isValid(CreditCard creditCard) {
-        boolean isValid = true;
+        boolean isValid;
         isValid = creditCard.getNumber().startsWith("37") || creditCard.getNumber().startsWith("34");
 
         if (isValid) {
@@ -16,7 +16,7 @@ public class AmexStrategy extends ValidationStrategy {
         }
 
         if (isValid) {
-            isValid = passessLuhn(creditCard.getNumber());
+            isValid = passesLuhn(creditCard.getNumber());
         }
         return isValid;
     }

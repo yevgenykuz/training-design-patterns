@@ -9,8 +9,8 @@ package me.yevgeny.training.designpatterns.behavioral.interpreter;
  */
 public class OrExpression implements Expression {
 
-    private Expression expression1 = null;
-    private Expression expression2 = null;
+    private Expression expression1;
+    private Expression expression2;
 
     public OrExpression(Expression expression1, Expression expression2) {
         this.expression1 = expression1;

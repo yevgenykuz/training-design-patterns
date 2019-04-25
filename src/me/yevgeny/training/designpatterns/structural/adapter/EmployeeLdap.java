@@ -22,38 +22,18 @@ public class EmployeeLdap {
         this.mail = mail;
     }
 
-    /**
-     * Gets the cn
-     *
-     * @return value of cn
-     */
     public String getCn() {
         return cn;
     }
 
-    /**
-     * Gets the surname
-     *
-     * @return value of surname
-     */
     public String getSurname() {
         return surname;
     }
 
-    /**
-     * Gets the givenName
-     *
-     * @return value of givenName
-     */
     public String getGivenName() {
         return givenName;
     }
 
-    /**
-     * Gets the mail
-     *
-     * @return value of mail
-     */
     public String getMail() {
         return mail;
     }

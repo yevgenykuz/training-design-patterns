@@ -18,7 +18,5 @@ public class AbstractFactoryDemo {
         CreditCard visaGoldCard = abstractFactory.getCreditCard(CardType.GOLD);
 
         System.out.println(visaGoldCard.getClass());
-
-
     }
 }

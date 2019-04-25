@@ -5,8 +5,6 @@ package me.yevgeny.training.designpatterns.behavioral.chainofresponibility;
  * <p>
  * All concrete handlers will implement handleRequest() in their own way.
  *
- *
- *
  * @author Yevgeny Kuznetsov
  */
 public abstract class Handler {

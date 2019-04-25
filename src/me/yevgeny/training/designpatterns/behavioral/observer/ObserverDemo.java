@@ -12,6 +12,5 @@ public class ObserverDemo {
 
         phoneClient.addMessage("A message");
         tabletClient.addMessage("Another message");
-
     }
 }

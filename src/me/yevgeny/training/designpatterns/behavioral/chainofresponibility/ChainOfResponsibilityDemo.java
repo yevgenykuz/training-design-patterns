@@ -5,7 +5,6 @@ package me.yevgeny.training.designpatterns.behavioral.chainofresponibility;
  */
 public class ChainOfResponsibilityDemo {
     public static void main(String[] args) {
-
         Director director = new Director();
         VP vp = new VP();
         CEO ceo = new CEO();

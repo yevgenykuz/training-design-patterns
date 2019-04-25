@@ -18,20 +18,10 @@ public class EmployeeMemento {
         this.phone = phone;
     }
 
-    /**
-     * Gets the name
-     *
-     * @return value of name
-     */
     public String getName() {
         return name;
     }
 
-    /**
-     * Gets the phone
-     *
-     * @return value of phone
-     */
     public String getPhone() {
         return phone;
     }

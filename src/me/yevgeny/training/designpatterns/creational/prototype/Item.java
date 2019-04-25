@@ -18,59 +18,26 @@ public abstract class Item implements Cloneable {
         return super.clone();
     }
 
-    /**
-     * Gets the title
-     *
-     * @return value of title
-     */
     public String getTitle() {
         return title;
     }
 
-    /**
-     * Sets the title
-     *
-     * @param title
-     *         the title
-     */
     public void setTitle(String title) {
         this.title = title;
     }
 
-    /**
-     * Gets the price
-     *
-     * @return value of price
-     */
     public double getPrice() {
         return price;
     }
 
-    /**
-     * Sets the price
-     *
-     * @param price
-     *         the price
-     */
     public void setPrice(double price) {
         this.price = price;
     }
 
-    /**
-     * Gets the url
-     *
-     * @return value of url
-     */
     public String getUrl() {
         return url;
     }
 
-    /**
-     * Sets the url
-     *
-     * @param url
-     *         the url
-     */
     public void setUrl(String url) {
         this.url = url;
     }

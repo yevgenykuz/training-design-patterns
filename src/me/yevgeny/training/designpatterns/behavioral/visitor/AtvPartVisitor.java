@@ -16,5 +16,4 @@ public interface AtvPartVisitor {
     void visit(Wheel wheel);
 
     void visit(PartsOrder partsOrder);
-
 }

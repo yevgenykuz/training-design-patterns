@@ -26,10 +26,10 @@ public class SecurityProxy implements InvocationHandler {
     }
 
     /**
-     * Here we build a wrapping SecurityProxy around the input object (TwitterServceStub, for example) and the
+     * Here we build a wrapping SecurityProxy around the input object (TwitterServiceStub, for example) and the
      * interfaces that object implements.
      * <p>
-     * This is done to wrap (-secure) the objects (TwitterServceStub for example) implementation.
+     * This is done to wrap (-secure) the objects (TwitterServiceStub for example) implementation.
      */
     public static Object newInstance(Object obj) {
         return Proxy.newProxyInstance(obj.getClass().getClassLoader(), obj.getClass().getInterfaces(),

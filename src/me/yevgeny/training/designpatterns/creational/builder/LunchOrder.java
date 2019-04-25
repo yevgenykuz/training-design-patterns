@@ -30,7 +30,7 @@ public class LunchOrder {
          * <p>
          * This builder is passed as a parameter. All local variables will be used to create the LunchOrder object.
          *
-         * @return
+         * @return A enw LunchOrder
          */
         public LunchOrder build() {
             return new LunchOrder(this);
@@ -39,10 +39,6 @@ public class LunchOrder {
         /**
          * Returns this builder with the bread variable updated, allowing further manipulation before actual LunchOrder
          * object creation.
-         *
-         * @param bread
-         *
-         * @return
          */
         public Builder bread(String bread) {
             this.bread = bread;
@@ -52,10 +48,6 @@ public class LunchOrder {
         /**
          * Returns this builder with the condiments variable updated, allowing further manipulation before actual
          * LunchOrder object creation.
-         *
-         * @param condiments
-         *
-         * @return
          */
         public Builder condiments(String condiments) {
             this.condiments = condiments;
@@ -65,10 +57,6 @@ public class LunchOrder {
         /**
          * Returns this builder with the dressing variable updated, allowing further manipulation before actual
          * LunchOrder object creation.
-         *
-         * @param dressing
-         *
-         * @return
          */
         public Builder dressing(String dressing) {
             this.dressing = dressing;
@@ -78,10 +66,6 @@ public class LunchOrder {
         /**
          * Returns this builder with the meat variable updated, allowing further manipulation before actual LunchOrder
          * object creation.
-         *
-         * @param meat
-         *
-         * @return
          */
         public Builder meat(String meat) {
             this.meat = meat;
@@ -102,38 +86,18 @@ public class LunchOrder {
         this.meat = builder.meat;
     }
 
-    /**
-     * Gets the bread
-     *
-     * @return value of bread
-     */
     public String getBread() {
         return bread;
     }
 
-    /**
-     * Gets the condiments
-     *
-     * @return value of condiments
-     */
     public String getCondiments() {
         return condiments;
     }
 
-    /**
-     * Gets the dressing
-     *
-     * @return value of dressing
-     */
     public String getDressing() {
         return dressing;
     }
 
-    /**
-     * Gets the meat
-     *
-     * @return value of meat
-     */
     public String getMeat() {
         return meat;
     }
