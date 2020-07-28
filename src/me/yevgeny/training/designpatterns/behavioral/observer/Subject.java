@@ -15,7 +15,8 @@ import java.util.List;
  * @author Yevgeny Kuznetsov
  */
 public abstract class Subject {
-    private List<Observer> observers = new ArrayList<>();
+
+    private final List<Observer> observers = new ArrayList<>();
 
     abstract void setState(String state);
 
@@ -25,11 +26,13 @@ public abstract class Subject {
         observers.add(observer);
     }
 
+    @SuppressWarnings("unused")
     public void detach(Observer observer) {
         observers.remove(observer);
     }
 
     public void notifyObservers() {
+        System.out.println("[Observee updates observers]");
         for (Observer observer : observers) {
             observer.update();
         }

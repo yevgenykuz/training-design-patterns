@@ -8,6 +8,7 @@ package me.yevgeny.training.designpatterns.behavioral.command;
  * @author Yevgeny Kuznetsov
  */
 public class Switch {
+
     public void storeAndExecute(Command command) {
         command.execute();
     }

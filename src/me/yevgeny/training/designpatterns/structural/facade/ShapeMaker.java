@@ -8,9 +8,10 @@ package me.yevgeny.training.designpatterns.structural.facade;
  * @author Yevgeny Kuznetsov
  */
 public class ShapeMaker {
-    private Shape square;
-    private Shape circle;
-    private Shape rectangle;
+
+    private final Shape square;
+    private final Shape circle;
+    private final Shape rectangle;
 
     public ShapeMaker() {
         square = new Square();

@@ -14,7 +14,7 @@ public class MeatDecorator extends SandwichDecorator {
      * Can accept other decorators as well, allowing to daisy-chain decorators
      */
     public MeatDecorator(Sandwich customSandwich) {
-        // we call the base decorator, allowing decoration through composition, by modifying the "SandwichDecorator"s
+        // we call the base decorator, allowing decoration through composition, by modifying the SandwichDecorator's
         // customSandwich field
         super(customSandwich);
     }

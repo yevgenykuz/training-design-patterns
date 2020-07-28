@@ -24,7 +24,7 @@
       <point x="-55.0" y="36.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="224.0" y="191.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="236.0" y="202.0" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.behavioral.strategy.AmexStrategy</node>
   </SelectedNodes>

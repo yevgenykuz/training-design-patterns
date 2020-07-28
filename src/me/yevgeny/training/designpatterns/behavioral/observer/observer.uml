@@ -3,8 +3,8 @@
   <ID>JAVA</ID>
   <OriginalElement>me.yevgeny.training.designpatterns.behavioral.observer</OriginalElement>
   <nodes>
-    <node x="220.0" y="346.0">me.yevgeny.training.designpatterns.behavioral.observer.MessageStream</node>
     <node x="478.0" y="346.0">me.yevgeny.training.designpatterns.behavioral.observer.PhoneClient</node>
+    <node x="220.0" y="346.0">me.yevgeny.training.designpatterns.behavioral.observer.MessageStream</node>
     <node x="318.5" y="502.0">me.yevgeny.training.designpatterns.behavioral.observer.ObserverDemo</node>
     <node x="0.0" y="346.0">me.yevgeny.training.designpatterns.behavioral.observer.TabletClient</node>
     <node x="328.5" y="0.0">me.yevgeny.training.designpatterns.behavioral.observer.Observer</node>
@@ -26,54 +26,6 @@
       <point x="377.625" y="321.0" />
       <point x="-25.375" y="81.0" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.observer.ObserverDemo" target="me.yevgeny.training.designpatterns.behavioral.observer.Subject">
-      <point x="14.083333333333314" y="-25.5" />
-      <point x="417.0833333333333" y="462.0" />
-      <point x="467.5" y="462.0" />
-      <point x="467.5" y="321.0" />
-      <point x="428.375" y="321.0" />
-      <point x="25.375" y="81.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.observer.Observer" target="me.yevgeny.training.designpatterns.behavioral.observer.Subject">
-      <point x="21.285714285714334" y="37.0" />
-      <point x="424.28571428571433" y="114.0" />
-      <point x="470.6666666666667" y="114.0" />
-      <point x="67.66666666666669" y="-81.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.observer.TabletClient" target="me.yevgeny.training.designpatterns.behavioral.observer.Subject">
-      <point x="66.66666666666669" y="-48.0" />
-      <point x="166.66666666666669" y="321.0" />
-      <point x="326.875" y="321.0" />
-      <point x="-76.125" y="81.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.observer.ObserverDemo" target="me.yevgeny.training.designpatterns.behavioral.observer.PhoneClient">
-      <point x="70.41666666666669" y="-25.5" />
-      <point x="473.4166666666667" y="482.0" />
-      <point x="628.0" y="482.0" />
-      <point x="50.0" y="48.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.observer.PhoneClient" target="me.yevgeny.training.designpatterns.behavioral.observer.Subject">
-      <point x="-66.66666666666669" y="-48.0" />
-      <point x="511.3333333333333" y="321.0" />
-      <point x="479.125" y="321.0" />
-      <point x="76.125" y="81.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.observer.ObserverDemo" target="me.yevgeny.training.designpatterns.behavioral.observer.MessageStream">
-      <point x="-14.083333333333314" y="-25.5" />
-      <point x="388.9166666666667" y="462.0" />
-      <point x="338.5" y="462.0" />
-      <point x="0.0" y="48.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.observer.ObserverDemo" target="me.yevgeny.training.designpatterns.behavioral.observer.TabletClient">
-      <point x="-70.41666666666669" y="-25.5" />
-      <point x="332.5833333333333" y="482.0" />
-      <point x="50.0" y="482.0" />
-      <point x="-50.0" y="48.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.observer.Subject" target="me.yevgeny.training.designpatterns.behavioral.observer.Observer">
-      <point x="0.0" y="-81.0" />
-      <point x="0.0" y="37.0" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.observer.PhoneClient" target="me.yevgeny.training.designpatterns.behavioral.observer.Observer">
       <point x="66.66666666666663" y="-48.0" />
       <point x="644.6666666666666" y="321.0" />
@@ -83,7 +35,7 @@
       <point x="63.85714285714289" y="37.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="339.0" y="276.5" />
+  <settings layout="Hierarchic Group" zoom="0.6735042735042736" x="349.0" y="282.5" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.behavioral.observer.Subject</node>
   </SelectedNodes>

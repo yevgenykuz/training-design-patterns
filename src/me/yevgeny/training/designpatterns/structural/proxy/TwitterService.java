@@ -9,6 +9,7 @@ package me.yevgeny.training.designpatterns.structural.proxy;
  * @see TwitterServiceStub
  */
 public interface TwitterService {
+
     String getTimeline(String screenName);
 
     void postToTimeline(String screenName, String message);

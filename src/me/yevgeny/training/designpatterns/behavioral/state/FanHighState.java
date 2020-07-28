@@ -12,7 +12,7 @@ package me.yevgeny.training.designpatterns.behavioral.state;
  */
 public class FanHighState extends State {
 
-    private Fan fan;
+    private final Fan fan;
 
     public FanHighState(Fan fan) {
         this.fan = fan;

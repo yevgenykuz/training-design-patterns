@@ -5,10 +5,10 @@ package me.yevgeny.training.designpatterns.structural.adapter;
  */
 public class EmployeeDB implements Employee {
 
-    private String id;
-    private String firstName;
-    private String lastName;
-    private String email;
+    private final String id;
+    private final String firstName;
+    private final String lastName;
+    private final String email;
 
     public EmployeeDB(String id, String firstName, String lastName, String email) {
         this.id = id;
@@ -17,23 +17,28 @@ public class EmployeeDB implements Employee {
         this.email = email;
     }
 
-    @Override public String getId() {
+    @Override
+    public String getId() {
         return id;
     }
 
-    @Override public String getFirstName() {
+    @Override
+    public String getFirstName() {
         return firstName;
     }
 
-    @Override public String getLastName() {
+    @Override
+    public String getLastName() {
         return lastName;
     }
 
-    @Override public String getEmail() {
+    @Override
+    public String getEmail() {
         return email;
     }
 
-    @Override public String toString() {
+    @Override
+    public String toString() {
         return "EmployeeDB{" + "id='" + id + '\'' + ", firstName='" + firstName + '\'' + ", lastName='" + lastName +
                 '\'' + ", email='" + email + '\'' + '}';
     }

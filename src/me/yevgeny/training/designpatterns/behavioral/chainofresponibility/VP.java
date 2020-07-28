@@ -9,6 +9,7 @@ package me.yevgeny.training.designpatterns.behavioral.chainofresponibility;
  * @see CEO (successor)
  */
 public class VP extends Handler {
+
     @Override
     public void handleRequest(Request request) {
         if (request.getRequestType() == RequestType.PURCHASE) {

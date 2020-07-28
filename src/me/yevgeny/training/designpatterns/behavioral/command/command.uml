@@ -12,68 +12,20 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.ToggleCommand" target="me.yevgeny.training.designpatterns.behavioral.command.Command">
-      <point x="-67.0" y="-48.5" />
-      <point x="312.0" y="158.0" />
-      <point x="170.86044973544972" y="158.0" />
-      <point x="17.875" y="25.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.command.AllLightsCommand" target="me.yevgeny.training.designpatterns.behavioral.command.Command">
       <point x="-81.33333333333331" y="-48.5" />
       <point x="540.1666666666667" y="138.0" />
       <point x="206.61044973544972" y="138.0" />
       <point x="53.625" y="25.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.CommandDemo" target="me.yevgeny.training.designpatterns.behavioral.command.Switch">
-      <point x="-48.285714285714334" y="-25.5" />
-      <point x="330.71428571428567" y="305.0" />
-      <point x="72.5" y="305.0" />
-      <point x="-62.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.CommandDemo" target="me.yevgeny.training.designpatterns.behavioral.command.AllLightsCommand">
-      <point x="24.14285714285711" y="-25.5" />
-      <point x="403.1428571428571" y="295.0" />
-      <point x="621.5" y="295.0" />
-      <point x="0.0" y="48.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.Switch" target="me.yevgeny.training.designpatterns.behavioral.command.Command">
-      <point x="0.0" y="-25.5" />
-      <point x="-17.875" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.CommandDemo" target="me.yevgeny.training.designpatterns.behavioral.command.Light">
-      <point x="72.42857142857144" y="-25.5" />
-      <point x="451.42857142857144" y="315.0" />
-      <point x="765.0" y="315.0" />
-      <point x="765.0" y="138.0" />
-      <point x="695.4814814814815" y="138.0" />
-      <point x="57.083333333333314" y="59.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.CommandDemo" target="me.yevgeny.training.designpatterns.behavioral.command.ToggleCommand">
-      <point x="0.0" y="-25.5" />
-      <point x="0.0" y="48.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.ToggleCommand" target="me.yevgeny.training.designpatterns.behavioral.command.Light">
-      <point x="67.0" y="-48.5" />
-      <point x="446.0" y="158.0" />
-      <point x="604.1481481481482" y="158.0" />
-      <point x="-34.25" y="59.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.CommandDemo" target="me.yevgeny.training.designpatterns.behavioral.command.Command">
-      <point x="-72.42857142857144" y="-25.5" />
-      <point x="306.57142857142856" y="315.0" />
-      <point x="0.0" y="315.0" />
-      <point x="0.0" y="158.0" />
-      <point x="99.36044973544972" y="158.0" />
-      <point x="-53.625" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.command.AllLightsCommand" target="me.yevgeny.training.designpatterns.behavioral.command.Light">
-      <point x="0.0" y="-48.5" />
-      <point x="621.5" y="158.0" />
-      <point x="626.9814814814815" y="158.0" />
-      <point x="-11.416666666666671" y="59.0" />
+    <edge source="me.yevgeny.training.designpatterns.behavioral.command.ToggleCommand" target="me.yevgeny.training.designpatterns.behavioral.command.Command">
+      <point x="-67.0" y="-48.5" />
+      <point x="312.0" y="158.0" />
+      <point x="170.86044973544972" y="158.0" />
+      <point x="17.875" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="382.5" y="198.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="390.0" y="199.0" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.behavioral.command.CommandDemo</node>
   </SelectedNodes>

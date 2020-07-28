@@ -10,7 +10,8 @@ import java.util.Map;
  * @see Item
  */
 public class Catalog {
-    private Map<String, Item> items = new HashMap<>();
+
+    private final Map<String, Item> items = new HashMap<>();
 
     /**
      * To save memory, a new Item object is created only if itemName is new.

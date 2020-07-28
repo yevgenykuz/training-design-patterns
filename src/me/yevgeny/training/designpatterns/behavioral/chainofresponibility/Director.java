@@ -9,6 +9,7 @@ package me.yevgeny.training.designpatterns.behavioral.chainofresponibility;
  * @see VP (successor)
  */
 public class Director extends Handler {
+
     @Override
     public void handleRequest(Request request) {
         if (request.getRequestType() == RequestType.CONFERENCE) {

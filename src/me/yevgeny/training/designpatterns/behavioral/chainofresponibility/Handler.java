@@ -8,6 +8,7 @@ package me.yevgeny.training.designpatterns.behavioral.chainofresponibility;
  * @author Yevgeny Kuznetsov
  */
 public abstract class Handler {
+
     protected Handler successor;
 
     /**

@@ -8,6 +8,7 @@ import java.util.Iterator;
  * @author Yevgeny Kuznetsov
  */
 public class BikeRepository implements Iterable<String> {
+
     private String[] bikes;
     private int index;
 

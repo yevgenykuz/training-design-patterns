@@ -17,6 +17,7 @@ import java.util.Iterator;
  * @see MenuItem (child)
  */
 public class Menu extends MenuComponent {
+
     public Menu(String name, String url) {
         this.name = name;
         this.url = url;
@@ -35,13 +36,10 @@ public class Menu extends MenuComponent {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder(); // builder design pattern
-
         stringBuilder.append(print(this));
 
         // The composite design pattern allows us to iterate over all children:
-        Iterator<MenuComponent> iterator = menuComponents.iterator();
-        while (iterator.hasNext()) {
-            MenuComponent menuComponent = iterator.next();
+        for (MenuComponent menuComponent : menuComponents) {
             // Here, both children (MenuItem) and parent (Menu) implement the MenuComponent toString() method:
             stringBuilder.append(menuComponent.toString());
         }

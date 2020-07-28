@@ -3,261 +3,91 @@
   <ID>JAVA</ID>
   <OriginalElement>me.yevgeny.training.designpatterns.creational.abstractfactory</OriginalElement>
   <nodes>
-    <node x="906.8125" y="725.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AbstractFactoryDemo</node>
-    <node x="564.5" y="295.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldValidator</node>
-    <node x="1061.4583333333335" y="427.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory</node>
-    <node x="306.5" y="427.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory</node>
-    <node x="1029.1151315789473" y="295.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaValidator</node>
-    <node x="10.5" y="174.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldCreditCard</node>
-    <node x="759.6031271360221" y="163.0">me.yevgeny.training.designpatterns.creational.abstractfactory.Validator</node>
-    <node x="330.5" y="295.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumValidator</node>
-    <node x="1264.1151315789475" y="306.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaPlatinumCreditCard</node>
-    <node x="892.3453377762587" y="284.0">me.yevgeny.training.designpatterns.creational.abstractfactory.CardType</node>
-    <node x="1376.9583333333335" y="174.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaCreditCard</node>
-    <node x="190.5" y="174.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumCreditCard</node>
-    <node x="640.7203377762587" y="580.0">me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory</node>
-    <node x="748.4901315789473" y="0.0">me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard</node>
-    <node x="1458.1151315789475" y="306.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaGoldCreditCard</node>
+    <node x="557.0" y="760.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldValidator</node>
+    <node x="263.0" y="868.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AbstractFactoryDemo</node>
+    <node x="317.0" y="515.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory</node>
+    <node x="0.0" y="515.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory</node>
+    <node x="696.1666666666666" y="137.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldCreditCard</node>
+    <node x="299.0" y="760.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaValidator</node>
+    <node x="299.0" y="647.0">me.yevgeny.training.designpatterns.creational.abstractfactory.Validator</node>
+    <node x="0.0" y="760.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumValidator</node>
+    <node x="266.0" y="248.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaPlatinumCreditCard</node>
+    <node x="0.0" y="868.0">me.yevgeny.training.designpatterns.creational.abstractfactory.CardType</node>
+    <node x="164.16666666666663" y="137.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaCreditCard</node>
+    <node x="386.16666666666663" y="137.0">me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumCreditCard</node>
+    <node x="130.0" y="354.0">me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory</node>
+    <node x="438.0" y="0.0">me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard</node>
+    <node x="0.0" y="248.0">me.yevgeny.training.designpatterns.creational.abstractfactory.VisaGoldCreditCard</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaValidator" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="53.5" y="-25.5" />
-      <point x="1189.6151315789473" y="133.0" />
-      <point x="851.3083133971293" y="133.0" />
-      <point x="15.81818181818187" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CardType">
-      <point x="0.0" y="-47.5" />
-      <point x="792.2203377762587" y="530.0" />
-      <point x="836.5682743791297" y="530.0" />
-      <point x="836.5682743791297" y="407.0" />
-      <point x="929.4703377762587" y="407.0" />
-      <point x="-12.375" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaGoldCreditCard">
-      <point x="109.16666666666674" y="-36.5" />
-      <point x="1301.6250000000002" y="407.0" />
-      <point x="1533.6151315789475" y="407.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AbstractFactoryDemo" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CardType">
-      <point x="0.0" y="-25.5" />
-      <point x="991.3125" y="700.0" />
-      <point x="956.8026315789473" y="700.0" />
-      <point x="956.8026315789473" y="407.0" />
-      <point x="954.2203377762587" y="407.0" />
-      <point x="12.375" y="36.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldValidator" target="me.yevgeny.training.designpatterns.creational.abstractfactory.Validator">
-      <point x="53.5" y="-25.5" />
-      <point x="725.0" y="244.0" />
-      <point x="813.1031271360221" y="244.0" />
-      <point x="-53.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CardType">
-      <point x="112.28571428571433" y="-36.5" />
-      <point x="549.7857142857143" y="397.0" />
-      <point x="904.7203377762587" y="397.0" />
-      <point x="-37.125" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="129.8571428571429" y="-47.5" />
-      <point x="922.0774806334016" y="560.0" />
-      <point x="1619.6151315789475" y="560.0" />
-      <point x="1619.6151315789475" y="103.0" />
-      <point x="898.7628588516745" y="103.0" />
-      <point x="63.27272727272725" y="36.5" />
+      <point x="0.0" y="-31.5" />
+      <point x="676.0" y="735.0" />
+      <point x="497.3333333333333" y="735.0" />
+      <point x="79.33333333333331" y="31.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaGoldCreditCard" target="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaCreditCard">
-      <point x="0.0" y="-14.5" />
-      <point x="1533.6151315789475" y="264.0" />
-      <point x="1471.4583333333335" y="264.0" />
-      <point x="31.5" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AbstractFactoryDemo" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="56.33333333333326" y="-25.5" />
-      <point x="1047.6458333333333" y="700.0" />
-      <point x="1630.6151315789475" y="700.0" />
-      <point x="1630.6151315789475" y="93.0" />
-      <point x="914.5810406698565" y="93.0" />
-      <point x="79.09090909090912" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.Validator">
-      <point x="74.85714285714289" y="-36.5" />
-      <point x="512.3571428571429" y="387.0" />
-      <point x="789.0" y="387.0" />
-      <point x="789.0" y="254.0" />
-      <point x="848.7697938026886" y="254.0" />
-      <point x="-17.83333333333337" y="25.5" />
+      <point x="0.0" y="-30.5" />
+      <point x="123.0" y="223.0" />
+      <point x="214.66666666666663" y="223.0" />
+      <point x="-50.5" y="30.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaCreditCard" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="0.0" y="-14.5" />
-      <point x="1439.9583333333335" y="113.0" />
-      <point x="882.9446770334928" y="113.0" />
-      <point x="47.45454545454538" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="-112.28571428571422" y="-36.5" />
-      <point x="325.2142857142858" y="407.0" />
-      <point x="0.0" y="407.0" />
-      <point x="0.0" y="103.0" />
-      <point x="756.3992224880383" y="103.0" />
-      <point x="-79.09090909090912" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AbstractFactoryDemo" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory">
-      <point x="-56.33333333333337" y="-25.5" />
-      <point x="934.9791666666667" y="700.0" />
-      <point x="792.2203377762587" y="700.0" />
-      <point x="0.0" y="47.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.Validator">
-      <point x="-65.5" y="-36.5" />
-      <point x="1126.9583333333335" y="397.0" />
-      <point x="1001.8453377762587" y="397.0" />
-      <point x="1001.8453377762587" y="264.0" />
-      <point x="920.1031271360221" y="264.0" />
-      <point x="53.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory">
-      <point x="65.5" y="36.5" />
-      <point x="503.0" y="550.0" />
-      <point x="705.64890920483" y="550.0" />
-      <point x="-86.57142857142867" y="-47.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumValidator" target="me.yevgeny.training.designpatterns.creational.abstractfactory.Validator">
-      <point x="53.5" y="-25.5" />
-      <point x="491.0" y="234.0" />
-      <point x="777.4364604693553" y="234.0" />
-      <point x="-89.16666666666663" y="25.5" />
+      <point x="0.0" y="-30.5" />
+      <point x="265.16666666666663" y="112.0" />
+      <point x="469.6666666666667" y="112.0" />
+      <point x="-63.333333333333314" y="43.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaPlatinumCreditCard" target="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaCreditCard">
-      <point x="0.0" y="-14.5" />
-      <point x="1351.1151315789475" y="264.0" />
-      <point x="1408.4583333333335" y="264.0" />
-      <point x="-31.5" y="14.5" />
+      <point x="0.0" y="-30.5" />
+      <point x="411.0" y="223.0" />
+      <point x="315.66666666666663" y="223.0" />
+      <point x="50.5" y="30.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory">
+      <point x="0.0" y="-43.5" />
+      <point x="148.5" y="490.0" />
+      <point x="218.5" y="490.0" />
+      <point x="-88.5" y="55.5" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumValidator" target="me.yevgeny.training.designpatterns.creational.abstractfactory.Validator">
+      <point x="0.0" y="-31.5" />
+      <point x="139.5" y="735.0" />
+      <point x="338.6666666666667" y="735.0" />
+      <point x="-79.33333333333331" y="31.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory">
-      <point x="65.5" y="36.5" />
-      <point x="1257.9583333333335" y="550.0" />
-      <point x="878.7917663476874" y="550.0" />
-      <point x="86.57142857142856" y="-47.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.Validator">
-      <point x="-43.285714285714334" y="-47.5" />
-      <point x="748.9346234905445" y="520.0" />
-      <point x="807.2557743791297" y="520.0" />
-      <point x="807.2557743791297" y="264.0" />
-      <point x="884.4364604693553" y="264.0" />
-      <point x="17.83333333333337" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumValidator">
-      <point x="0.0" y="-36.5" />
-      <point x="0.0" y="25.5" />
+      <point x="0.0" y="-43.5" />
+      <point x="465.5" y="490.0" />
+      <point x="395.5" y="490.0" />
+      <point x="88.5" y="55.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumCreditCard" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="0.0" y="-14.5" />
-      <point x="282.0" y="123.0" />
-      <point x="788.0355861244018" y="123.0" />
-      <point x="-47.454545454545496" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaValidator">
-      <point x="-21.833333333333258" y="-36.5" />
-      <point x="1170.6250000000002" y="407.0" />
-      <point x="1136.1151315789473" y="407.0" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="21.833333333333258" y="-36.5" />
-      <point x="1214.2916666666667" y="387.0" />
-      <point x="1253.6151315789473" y="387.0" />
-      <point x="1253.6151315789473" y="123.0" />
-      <point x="867.126495215311" y="123.0" />
-      <point x="31.636363636363626" y="36.5" />
+      <point x="0.0" y="-30.5" />
+      <point x="531.1666666666666" y="112.0" />
+      <point x="533.0" y="112.0" />
+      <point x="0.0" y="43.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldCreditCard" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="0.0" y="-14.5" />
-      <point x="90.5" y="113.0" />
-      <point x="772.21740430622" y="113.0" />
-      <point x="-63.27272727272725" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory">
-      <point x="43.28571428571422" y="-47.5" />
-      <point x="835.5060520619729" y="540.0" />
-      <point x="1126.9583333333335" y="540.0" />
-      <point x="-65.5" y="36.5" />
+      <point x="0.0" y="-30.5" />
+      <point x="819.1666666666666" y="112.0" />
+      <point x="596.3333333333334" y="112.0" />
+      <point x="63.33333333333337" y="43.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaValidator" target="me.yevgeny.training.designpatterns.creational.abstractfactory.Validator">
-      <point x="-53.5" y="-25.5" />
-      <point x="1082.6151315789473" y="254.0" />
-      <point x="955.7697938026886" y="254.0" />
-      <point x="89.16666666666663" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCardFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory">
-      <point x="-129.8571428571429" y="-47.5" />
-      <point x="662.3631949191158" y="560.0" />
-      <point x="372.0" y="560.0" />
-      <point x="-65.5" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldCreditCard">
-      <point x="-74.85714285714278" y="-36.5" />
-      <point x="362.6428571428572" y="397.0" />
-      <point x="90.5" y="397.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.Validator" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="0.0" y="-25.5" />
-      <point x="866.6031271360221" y="143.0" />
-      <point x="835.4901315789473" y="143.0" />
-      <point x="0.0" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumValidator" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="-53.5" y="-25.5" />
-      <point x="384.0" y="133.0" />
-      <point x="803.8537679425838" y="133.0" />
-      <point x="-31.636363636363626" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CardType">
-      <point x="-109.16666666666652" y="-36.5" />
-      <point x="1083.291666666667" y="407.0" />
-      <point x="978.9703377762587" y="407.0" />
-      <point x="37.125" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldValidator">
-      <point x="37.428571428571445" y="-36.5" />
-      <point x="474.92857142857144" y="377.0" />
-      <point x="671.5" y="377.0" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.VisaPlatinumCreditCard">
-      <point x="65.5" y="-36.5" />
-      <point x="1257.9583333333335" y="397.0" />
-      <point x="1351.1151315789475" y="397.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexFactory" target="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexPlatinumCreditCard">
-      <point x="-37.42857142857133" y="-36.5" />
-      <point x="400.07142857142867" y="387.0" />
-      <point x="282.0" y="387.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.abstractfactory.AmexGoldValidator" target="me.yevgeny.training.designpatterns.creational.abstractfactory.CreditCard">
-      <point x="-53.5" y="-25.5" />
-      <point x="618.0" y="143.0" />
-      <point x="819.6719497607655" y="143.0" />
-      <point x="-15.81818181818187" y="36.5" />
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="31.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.845020624631703" x="838.5" y="378.0" />
-  <SelectedNodes>
-    <node>me.yevgeny.training.designpatterns.creational.abstractfactory.AbstractFactoryDemo</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.8408163265306122" x="857.5" y="504.9781553398059" />
+  <SelectedNodes />
   <Categories>
-    <Category>Inner Classes</Category>
-    <Category>Properties</Category>
-    <Category>Methods</Category>
-    <Category>Constructors</Category>
     <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

@@ -10,7 +10,7 @@ package me.yevgeny.training.designpatterns.structural.adapter;
  */
 public class EmployeeAdapterCSV implements Employee {
 
-    private EmployeeCSV instance;
+    private final EmployeeCSV instance;
 
     public EmployeeAdapterCSV(EmployeeCSV instance) {
         this.instance = instance;

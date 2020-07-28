@@ -17,7 +17,7 @@ public class PhoneClient extends Observer {
     }
 
     public void addMessage(String message) {
-        subject.setState(message + " - sent from phone");
+        subject.setState("Sent from phone: " + message);
     }
 
     @Override

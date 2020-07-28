@@ -6,5 +6,6 @@ package me.yevgeny.training.designpatterns.behavioral.mediator;
  * @author Yevgeny Kuznetsov
  */
 public interface Command {
+
     void execute();
 }

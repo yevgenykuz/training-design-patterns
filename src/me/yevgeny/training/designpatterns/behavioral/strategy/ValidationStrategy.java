@@ -6,6 +6,7 @@ package me.yevgeny.training.designpatterns.behavioral.strategy;
  * @author Yevgeny Kuznetsov
  */
 public abstract class ValidationStrategy {
+
     public abstract boolean isValid(CreditCard creditCard);
 
     /** Used to validate credit card number - https://en.wikipedia.org/wiki/Luhn_algorithm */

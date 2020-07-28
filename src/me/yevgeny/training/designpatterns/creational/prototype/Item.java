@@ -9,6 +9,7 @@ package me.yevgeny.training.designpatterns.creational.prototype;
  * @author Yevgeny Kuznetsov
  */
 public abstract class Item implements Cloneable {
+
     private String title;
     private double price;
     private String url;

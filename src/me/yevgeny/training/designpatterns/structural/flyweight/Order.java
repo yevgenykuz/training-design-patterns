@@ -4,6 +4,7 @@ package me.yevgeny.training.designpatterns.structural.flyweight;
  * @author Yevgeny Kuznetsov
  */
 public class Order {
+
     private final int orderNumber;
     private final Item item;
 

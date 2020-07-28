@@ -7,15 +7,16 @@ package me.yevgeny.training.designpatterns.creational.singelton;
  *
  * @author Yevgeny Kuznetsov
  */
-public class DbSingeltonEager {
-    private static DbSingeltonEager instance = new DbSingeltonEager();
+public class DbSingletonEager {
 
-    // The private constructor prevents "new DbSingeltonEager()" statements outside this class.
-    private DbSingeltonEager() {
+    private static final DbSingletonEager instance = new DbSingletonEager();
+
+    // The private constructor prevents "new DbSingletonEager()" statements outside this class.
+    private DbSingletonEager() {
     }
 
     // This is the only way to access this object:
-    public static DbSingeltonEager getInstance() {
+    public static DbSingletonEager getInstance() {
         return instance;
     }
 }

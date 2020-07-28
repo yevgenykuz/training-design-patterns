@@ -6,5 +6,6 @@ package me.yevgeny.training.designpatterns.behavioral.visitor;
  * @author Yevgeny Kuznetsov
  */
 public interface AtvPart {
-    public void accept(AtvPartVisitor visitor);
+
+    void accept(AtvPartVisitor visitor);
 }

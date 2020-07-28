@@ -6,6 +6,7 @@ package me.yevgeny.training.designpatterns.behavioral.template;
  * @author Yevgeny Kuznetsov
  */
 public class StoreOrder extends OrderTemplate {
+
     @Override
     public void doCheckout() {
         System.out.println("Ring up items from cart.");

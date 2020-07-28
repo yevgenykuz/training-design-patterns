@@ -8,6 +8,7 @@ package me.yevgeny.training.designpatterns.behavioral.chainofresponibility;
  * @author Yevgeny Kuznetsov
  */
 public class CEO extends Handler {
+
     @Override
     public void handleRequest(Request request) {
         System.out.println("A CEO can approve anything - there is no successor");

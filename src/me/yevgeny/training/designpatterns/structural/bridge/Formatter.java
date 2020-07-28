@@ -11,5 +11,6 @@ import java.util.List;
  * @see PrintFormatter
  */
 public interface Formatter {
+
     String format(String header, List<Detail> details);
 }

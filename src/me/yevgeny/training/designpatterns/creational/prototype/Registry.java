@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class Registry {
 
-    private Map<String, Item> items = new HashMap<>();
+    private final Map<String, Item> items = new HashMap<>();
 
     public Registry() {
         loadItems();

@@ -7,6 +7,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * @author Yevgeny Kuznetsov
  */
 public class InventorySystem {
+
     private final Catalog catalog = new Catalog();
     private final List<Order> orders = new CopyOnWriteArrayList<>();
 

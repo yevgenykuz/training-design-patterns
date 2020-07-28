@@ -6,5 +6,6 @@ package me.yevgeny.training.designpatterns.behavioral.interpreter;
  * @author Yevgeny Kuznetsov
  */
 public interface Expression {
+
     boolean interpret(String context);
 }

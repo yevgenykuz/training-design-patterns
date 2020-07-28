@@ -8,7 +8,7 @@ package me.yevgeny.training.designpatterns.behavioral.command;
  */
 public class ToggleCommand implements Command {
 
-    private Light light;
+    private final Light light;
 
     public ToggleCommand(Light light) {
         this.light = light;

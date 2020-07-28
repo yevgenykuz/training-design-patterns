@@ -4,44 +4,22 @@
   <OriginalElement>me.yevgeny.training.designpatterns.creational.factory</OriginalElement>
   <nodes>
     <node x="856.8125" y="143.0">me.yevgeny.training.designpatterns.creational.factory.ItemPage</node>
-    <node x="0.0" y="143.0">me.yevgeny.training.designpatterns.creational.factory.ContactPage</node>
     <node x="136.00000000000006" y="143.0">me.yevgeny.training.designpatterns.creational.factory.AboutPage</node>
+    <node x="0.0" y="143.0">me.yevgeny.training.designpatterns.creational.factory.ContactPage</node>
     <node x="517.5505401234568" y="0.0">me.yevgeny.training.designpatterns.creational.factory.Page</node>
     <node x="633.0582561728395" y="399.0">me.yevgeny.training.designpatterns.creational.factory.WebsiteFactory</node>
     <node x="974.8125" y="143.0">me.yevgeny.training.designpatterns.creational.factory.SearchPage</node>
-    <node x="736.9332561728395" y="287.0">me.yevgeny.training.designpatterns.creational.factory.Shop</node>
     <node x="660.1651234567902" y="500.0">me.yevgeny.training.designpatterns.creational.factory.FactoryDemo</node>
+    <node x="736.9332561728395" y="287.0">me.yevgeny.training.designpatterns.creational.factory.Shop</node>
     <node x="263.00000000000006" y="143.0">me.yevgeny.training.designpatterns.creational.factory.CommentPage</node>
     <node x="933.9332561728395" y="276.0">me.yevgeny.training.designpatterns.creational.factory.WebsiteType</node>
-    <node x="528.0" y="109.0">me.yevgeny.training.designpatterns.creational.factory.Website</node>
     <node x="740.8125" y="143.0">me.yevgeny.training.designpatterns.creational.factory.CartPage</node>
+    <node x="528.0" y="109.0">me.yevgeny.training.designpatterns.creational.factory.Website</node>
     <node x="411.00000000000006" y="143.0">me.yevgeny.training.designpatterns.creational.factory.PostPage</node>
     <node x="292.4031635802469" y="287.0">me.yevgeny.training.designpatterns.creational.factory.Blog</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.WebsiteFactory" target="me.yevgeny.training.designpatterns.creational.factory.Website">
-      <point x="-31.125" y="-25.5" />
-      <point x="726.4332561728395" y="369.0" />
-      <point x="668.4375" y="369.0" />
-      <point x="668.4375" y="256.0" />
-      <point x="631.25" y="256.0" />
-      <point x="14.75" y="48.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.FactoryDemo" target="me.yevgeny.training.designpatterns.creational.factory.WebsiteType">
-      <point x="56.33333333333337" y="-25.5" />
-      <point x="800.9984567901236" y="475.0" />
-      <point x="1020.9332561728395" y="475.0" />
-      <point x="29.0" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.FactoryDemo" target="me.yevgeny.training.designpatterns.creational.factory.Website">
-      <point x="-56.33333333333337" y="-25.5" />
-      <point x="688.3317901234568" y="475.0" />
-      <point x="604.3125" y="475.0" />
-      <point x="604.3125" y="256.0" />
-      <point x="601.75" y="256.0" />
-      <point x="-14.75" y="48.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.factory.ItemPage" target="me.yevgeny.training.designpatterns.creational.factory.Page">
       <point x="0.0" y="-14.5" />
       <point x="905.8125" y="59.0" />
@@ -60,65 +38,17 @@
       <point x="521.6616512345679" y="59.0" />
       <point x="-32.888888888888914" y="14.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.WebsiteFactory" target="me.yevgeny.training.designpatterns.creational.factory.WebsiteType">
-      <point x="93.375" y="-25.5" />
-      <point x="850.9332561728395" y="379.0" />
-      <point x="962.9332561728395" y="379.0" />
-      <point x="-29.0" y="36.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.WebsiteFactory" target="me.yevgeny.training.designpatterns.creational.factory.Blog">
-      <point x="-93.375" y="-25.5" />
-      <point x="664.1832561728395" y="379.0" />
-      <point x="380.9031635802469" y="379.0" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.Shop" target="me.yevgeny.training.designpatterns.creational.factory.CartPage">
-      <point x="0.0" y="-25.5" />
-      <point x="825.4332561728395" y="226.0" />
-      <point x="788.8125" y="226.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.Shop" target="me.yevgeny.training.designpatterns.creational.factory.ItemPage">
-      <point x="35.39999999999998" y="-25.5" />
-      <point x="860.8332561728395" y="246.0" />
-      <point x="905.8125" y="246.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.factory.PostPage" target="me.yevgeny.training.designpatterns.creational.factory.Page">
       <point x="0.0" y="-14.5" />
       <point x="459.50000000000006" y="89.0" />
       <point x="546.3283179012346" y="89.0" />
       <point x="-8.222222222222172" y="14.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.Blog" target="me.yevgeny.training.designpatterns.creational.factory.ContactPage">
-      <point x="-73.75" y="-25.5" />
-      <point x="307.1531635802469" y="256.0" />
-      <point x="58.0" y="256.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.Website" target="me.yevgeny.training.designpatterns.creational.factory.Page">
-      <point x="-44.25" y="-48.5" />
-      <point x="572.25" y="89.0" />
-      <point x="554.5505401234568" y="89.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.factory.AboutPage" target="me.yevgeny.training.designpatterns.creational.factory.Page">
       <point x="0.0" y="-14.5" />
       <point x="189.50000000000006" y="69.0" />
       <point x="529.8838734567902" y="69.0" />
       <point x="-24.66666666666663" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.Shop" target="me.yevgeny.training.designpatterns.creational.factory.SearchPage">
-      <point x="70.79999999999995" y="-25.5" />
-      <point x="896.2332561728394" y="256.0" />
-      <point x="1029.3125" y="256.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.WebsiteFactory" target="me.yevgeny.training.designpatterns.creational.factory.Shop">
-      <point x="31.125" y="-25.5" />
-      <point x="788.6832561728395" y="379.0" />
-      <point x="825.4332561728395" y="379.0" />
-      <point x="0.0" y="25.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.creational.factory.CartPage" target="me.yevgeny.training.designpatterns.creational.factory.Page">
       <point x="0.0" y="-14.5" />
@@ -144,32 +74,8 @@
       <point x="538.1060956790124" y="79.0" />
       <point x="-16.444444444444457" y="14.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.Blog" target="me.yevgeny.training.designpatterns.creational.factory.PostPage">
-      <point x="14.75" y="-25.5" />
-      <point x="395.6531635802469" y="236.0" />
-      <point x="459.50000000000006" y="236.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.Blog" target="me.yevgeny.training.designpatterns.creational.factory.CommentPage">
-      <point x="-14.75" y="-25.5" />
-      <point x="366.1531635802469" y="236.0" />
-      <point x="327.00000000000006" y="236.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.FactoryDemo" target="me.yevgeny.training.designpatterns.creational.factory.WebsiteFactory">
-      <point x="0.0" y="-25.5" />
-      <point x="744.6651234567902" y="475.0" />
-      <point x="757.5582561728395" y="475.0" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.creational.factory.Blog" target="me.yevgeny.training.designpatterns.creational.factory.AboutPage">
-      <point x="-44.25" y="-25.5" />
-      <point x="336.6531635802469" y="246.0" />
-      <point x="189.50000000000006" y="246.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="542.0" y="275.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="588.0" y="281.5" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.creational.factory.PostPage</node>
   </SelectedNodes>

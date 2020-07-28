@@ -6,6 +6,7 @@ package me.yevgeny.training.designpatterns.behavioral.strategy;
  * @author Yevgeny Kuznetsov
  */
 public class AmexStrategy extends ValidationStrategy {
+
     @Override
     public boolean isValid(CreditCard creditCard) {
         boolean isValid;

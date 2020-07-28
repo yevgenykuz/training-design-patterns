@@ -7,15 +7,16 @@ package me.yevgeny.training.designpatterns.creational.singelton;
  *
  * @author Yevgeny Kuznetsov
  */
-public class DbSingeltonLazy {
-    private static DbSingeltonLazy instance = null;
+public class DbSingletonLazy {
 
-    private DbSingeltonLazy() {
+    private static DbSingletonLazy instance = null;
+
+    private DbSingletonLazy() {
     }
 
-    public static DbSingeltonLazy getInstance() {
+    public static DbSingletonLazy getInstance() {
         if (null == instance) {
-            instance = new DbSingeltonLazy();
+            instance = new DbSingletonLazy();
         }
         return instance;
     }

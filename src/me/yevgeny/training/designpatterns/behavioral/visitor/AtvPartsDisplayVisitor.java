@@ -7,6 +7,7 @@ package me.yevgeny.training.designpatterns.behavioral.visitor;
  * @author Yevgeny Kuznetsov
  */
 public class AtvPartsDisplayVisitor implements AtvPartVisitor {
+
     @Override
     public void visit(Fender fender) {
         System.out.println("We have a fender");

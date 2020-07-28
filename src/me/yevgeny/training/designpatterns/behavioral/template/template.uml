@@ -16,30 +16,12 @@
       <point x="214.33333333333337" y="209.0" />
       <point x="-57.66666666666666" y="92.0" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.template.TemplateDemo" target="me.yevgeny.training.designpatterns.behavioral.template.WebOrder">
-      <point x="-56.33333333333334" y="-25.5" />
-      <point x="215.66666666666669" y="376.0" />
-      <point x="84.0" y="376.0" />
-      <point x="0.0" y="58.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.template.StoreOrder" target="me.yevgeny.training.designpatterns.behavioral.template.OrderTemplate">
       <point x="0.0" y="-58.5" />
       <point x="0.0" y="92.0" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.template.TemplateDemo" target="me.yevgeny.training.designpatterns.behavioral.template.OrderTemplate">
-      <point x="56.333333333333314" y="-25.5" />
-      <point x="328.3333333333333" y="376.0" />
-      <point x="366.5" y="376.0" />
-      <point x="366.5" y="209.0" />
-      <point x="329.66666666666663" y="209.0" />
-      <point x="57.66666666666663" y="92.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.template.TemplateDemo" target="me.yevgeny.training.designpatterns.behavioral.template.StoreOrder">
-      <point x="0.0" y="-25.5" />
-      <point x="0.0" y="58.5" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="183.5" y="226.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="188.5" y="232.0" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.behavioral.template.WebOrder</node>
   </SelectedNodes>

@@ -4,6 +4,7 @@ package me.yevgeny.training.designpatterns.structural.proxy;
  * @author Yevgeny Kuznetsov
  */
 public class ProxyDemo {
+
     public static void main(String[] args) {
         // The TwitterService is wrapped with a SecurityProxy. All method calls wee go through the SecurityProxy:
         TwitterService service = (TwitterService) SecurityProxy.newInstance(new TwitterServiceStub());

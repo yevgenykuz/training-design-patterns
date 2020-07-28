@@ -16,7 +16,7 @@ package me.yevgeny.training.designpatterns.structural.adapter;
  */
 public class EmployeeAdapterLdap implements Employee {
 
-    private EmployeeLdap instance;
+    private final EmployeeLdap instance;
 
     public EmployeeAdapterLdap(EmployeeLdap instance) {
         this.instance = instance;

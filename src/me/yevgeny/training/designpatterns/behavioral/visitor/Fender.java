@@ -6,6 +6,7 @@ package me.yevgeny.training.designpatterns.behavioral.visitor;
  * @author Yevgeny Kuznetsov
  */
 public class Fender implements AtvPart {
+
     @Override
     public void accept(AtvPartVisitor visitor) {
         visitor.visit(this);

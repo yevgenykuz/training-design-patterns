@@ -9,15 +9,12 @@ public class CompositeDemo {
         Menu mainMenu = new Menu("Main", "/main");
 
         MenuItem safetyMenuItem = new MenuItem("Safety", "/safety");
-
         mainMenu.add(safetyMenuItem);
 
         Menu claimsSubMenu = new Menu("Claims", "/claims");
-
         mainMenu.add(claimsSubMenu);
 
         MenuItem personalClaim = new MenuItem("Personal Claim", "/personalClaims");
-
         claimsSubMenu.add(personalClaim);
 
         System.out.println("Full tree:");

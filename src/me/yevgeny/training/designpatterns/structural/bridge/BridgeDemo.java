@@ -20,13 +20,12 @@ public class BridgeDemo {
 
         /*
          * The bridge:
-         * printFormatter and moviePrinter now nothing about each other. Each one can be changed independently.
+         * printFormatter and moviePrinter know nothing about each other. Each one can be changed independently.
          */
 
         // We use our specific formatter with our specific printer to print:
         String printerMaterial = moviePrinter.print(printFormatter);
         System.out.println(printerMaterial);
-
 
         // We create another formatter of a different specific type we need to be used with the moviePrinter:
         Formatter htmlFormatter = new HtmlFormatter();

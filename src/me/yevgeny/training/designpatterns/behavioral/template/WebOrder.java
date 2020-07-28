@@ -6,6 +6,7 @@ package me.yevgeny.training.designpatterns.behavioral.template;
  * @author Yevgeny Kuznetsov
  */
 public class WebOrder extends OrderTemplate {
+
     @Override
     public void doCheckout() {
         System.out.println("Get items from cart,");

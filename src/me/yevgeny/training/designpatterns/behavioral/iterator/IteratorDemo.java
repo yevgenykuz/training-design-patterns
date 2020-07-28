@@ -6,6 +6,7 @@ import java.util.Iterator;
  * @author Yevgeny Kuznetsov
  */
 public class IteratorDemo {
+
     public static void main(String[] args) {
         BikeRepository bikeRepository = new BikeRepository();
 
@@ -15,6 +16,7 @@ public class IteratorDemo {
 
         // BikeRepository implements Iterable, so we can use its iterator:
         Iterator<String> bikeIterator = bikeRepository.iterator();
+        //noinspection WhileLoopReplaceableByForEach
         while (bikeIterator.hasNext()) {
             System.out.println(bikeIterator.next());
         }

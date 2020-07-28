@@ -7,12 +7,13 @@ package me.yevgeny.training.designpatterns.creational.singelton;
  *
  * @author Yevgeny Kuznetsov
  */
-public class DbSingeltonLazyThreadSafe {
-    /** The instance variable should be volatile */
-    private static volatile DbSingeltonLazyThreadSafe instance = null;
+public class DbSingletonLazyThreadSafe {
 
-    private DbSingeltonLazyThreadSafe() {
-        // Prevent loading this singelton using reflection
+    /** The instance variable should be volatile */
+    private static volatile DbSingletonLazyThreadSafe instance = null;
+
+    private DbSingletonLazyThreadSafe() {
+        // Prevent loading this singleton using reflection
         if (null != instance) {
             throw new RuntimeException("Use getInstance() method to create this object");
         }
@@ -27,13 +28,13 @@ public class DbSingeltonLazyThreadSafe {
      * Instead, we will create an inner synchronized block. This time, the class will be synchronized only when the
      * instance is created for the first time.
      */
-    public static DbSingeltonLazyThreadSafe getInstance() {
+    public static DbSingletonLazyThreadSafe getInstance() {
         if (null == instance) {
-            synchronized (DbSingeltonLazyThreadSafe.class) {
+            synchronized (DbSingletonLazyThreadSafe.class) {
                 // We check for null one more time to prevent double instantiation - only one class checks this during
                 // a given time period (because its inside a synchronized block).
                 if (null == instance) {
-                    instance = new DbSingeltonLazyThreadSafe();
+                    instance = new DbSingletonLazyThreadSafe();
                 }
             }
         }

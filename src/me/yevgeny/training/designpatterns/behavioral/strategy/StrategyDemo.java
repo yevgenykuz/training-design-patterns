@@ -5,7 +5,7 @@ package me.yevgeny.training.designpatterns.behavioral.strategy;
  */
 public class StrategyDemo {
     public static void main(String[] args) {
-        // The client must know which validation strategy it want's to use:
+        // The client must know which validation strategy it wants to use:
         CreditCard amexCard = new CreditCard(new AmexStrategy());
         amexCard.setNumber("379185883464283");
         amexCard.setDate("02/2095");

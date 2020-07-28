@@ -3,86 +3,84 @@
   <ID>JAVA</ID>
   <OriginalElement>me.yevgeny.training.designpatterns.behavioral.mediator</OriginalElement>
   <nodes>
-    <node x="36.5" y="247.5">me.yevgeny.training.designpatterns.behavioral.mediator.Command</node>
-    <node x="360.13095238095235" y="392.0">me.yevgeny.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand</node>
-    <node x="126.83333333333326" y="549.0">me.yevgeny.training.designpatterns.behavioral.mediator.MediatorDemo</node>
-    <node x="68.13095238095235" y="392.0">me.yevgeny.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand</node>
-    <node x="201.63186813186812" y="0.0">me.yevgeny.training.designpatterns.behavioral.mediator.Light</node>
-    <node x="430.5128205128205" y="214.0">me.yevgeny.training.designpatterns.behavioral.mediator.Mediator</node>
+    <node x="38.49999999999997" y="272.5">me.yevgeny.training.designpatterns.behavioral.mediator.Command</node>
+    <node x="66.41666666666666" y="432.0">me.yevgeny.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand</node>
+    <node x="139.45421245421244" y="605.0">me.yevgeny.training.designpatterns.behavioral.mediator.MediatorDemo</node>
+    <node x="398.41666666666663" y="432.0">me.yevgeny.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand</node>
+    <node x="231.0558608058608" y="0.0">me.yevgeny.training.designpatterns.behavioral.mediator.Light</node>
+    <node x="479.01831501831504" y="236.0">me.yevgeny.training.designpatterns.behavioral.mediator.Mediator</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.MediatorDemo" target="me.yevgeny.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand">
-      <point x="24.142857142857167" y="-25.5" />
-      <point x="235.47619047619042" y="509.0" />
-      <point x="496.63095238095235" y="509.0" />
-      <point x="0.0" y="48.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand" target="me.yevgeny.training.designpatterns.behavioral.mediator.Mediator">
-      <point x="91.0" y="-48.5" />
-      <point x="587.6309523809523" y="372.0" />
-      <point x="544.8461538461538" y="372.0" />
-      <point x="16.333333333333343" y="59.0" />
+      <point x="104.0" y="-56.5" />
+      <point x="326.41666666666663" y="412.0" />
+      <point x="533.518315018315" y="412.0" />
+      <point x="-54.5" y="68.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.MediatorDemo" target="me.yevgeny.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand">
+      <point x="0.0" y="-31.5" />
+      <point x="229.45421245421244" y="585.0" />
+      <point x="222.41666666666666" y="585.0" />
+      <point x="0.0" y="56.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.MediatorDemo" target="me.yevgeny.training.designpatterns.behavioral.mediator.Command">
-      <point x="-24.14285714285711" y="-25.5" />
-      <point x="187.19047619047615" y="509.0" />
-      <point x="50.04761904761904" y="509.0" />
-      <point x="50.04761904761904" y="372.0" />
-      <point x="60.333333333333314" y="372.0" />
-      <point x="-47.666666666666686" y="25.5" />
+      <point x="-25.714285714285666" y="-31.5" />
+      <point x="203.73992673992677" y="565.0" />
+      <point x="50.91666666666666" y="565.0" />
+      <point x="50.91666666666666" y="412.0" />
+      <point x="62.83333333333334" y="412.0" />
+      <point x="-48.66666666666663" y="31.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.Mediator" target="me.yevgeny.training.designpatterns.behavioral.mediator.Light">
-      <point x="49.0" y="-59.0" />
-      <point x="577.5128205128206" y="184.0" />
-      <point x="329.38186813186815" y="184.0" />
-      <point x="54.75" y="82.0" />
+      <point x="-54.5" y="-68.0" />
+      <point x="533.518315018315" y="216.0" />
+      <point x="324.8058608058608" y="216.0" />
+      <point x="18.75" y="93.0" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand" target="me.yevgeny.training.designpatterns.behavioral.mediator.Command">
-      <point x="-91.0" y="-48.5" />
-      <point x="405.63095238095235" y="352.0" />
-      <point x="155.66666666666663" y="352.0" />
-      <point x="47.66666666666663" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand" target="me.yevgeny.training.designpatterns.behavioral.mediator.Command">
-      <point x="-90.66666666666663" y="-48.5" />
-      <point x="113.46428571428572" y="372.0" />
-      <point x="108.0" y="372.0" />
-      <point x="0.0" y="25.5" />
+      <point x="-104.0" y="-56.5" />
+      <point x="118.41666666666666" y="412.0" />
+      <point x="111.49999999999997" y="412.0" />
+      <point x="0.0" y="31.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.MediatorDemo" target="me.yevgeny.training.designpatterns.behavioral.mediator.Light">
-      <point x="-72.42857142857139" y="-25.5" />
-      <point x="138.90476190476187" y="529.0" />
-      <point x="15.0" y="529.0" />
-      <point x="15.0" y="184.0" />
-      <point x="219.88186813186812" y="184.0" />
-      <point x="-54.75" y="82.0" />
+      <point x="-51.428571428571445" y="-31.5" />
+      <point x="178.025641025641" y="575.0" />
+      <point x="27.99999999999997" y="575.0" />
+      <point x="27.99999999999997" y="216.0" />
+      <point x="287.3058608058608" y="216.0" />
+      <point x="-18.75" y="93.0" />
+    </edge>
+    <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand" target="me.yevgeny.training.designpatterns.behavioral.mediator.Command">
+      <point x="-103.0" y="-56.5" />
+      <point x="449.91666666666663" y="392.0" />
+      <point x="160.1666666666666" y="392.0" />
+      <point x="48.66666666666663" y="31.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.MediatorDemo" target="me.yevgeny.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand">
-      <point x="5.6843418860808015E-14" y="-25.5" />
-      <point x="211.33333333333331" y="529.0" />
-      <point x="204.13095238095235" y="529.0" />
-      <point x="0.0" y="48.5" />
+      <point x="25.714285714285666" y="-31.5" />
+      <point x="255.1684981684981" y="565.0" />
+      <point x="552.9166666666666" y="565.0" />
+      <point x="0.0" y="56.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand" target="me.yevgeny.training.designpatterns.behavioral.mediator.Mediator">
-      <point x="5.6843418860808015E-14" y="-48.5" />
-      <point x="204.1309523809524" y="362.0" />
-      <point x="446.8461538461538" y="362.0" />
-      <point x="-81.66666666666666" y="59.0" />
+      <point x="0.0" y="-56.5" />
+      <point x="552.9166666666666" y="412.0" />
+      <point x="569.8516483516484" y="412.0" />
+      <point x="-18.16666666666667" y="68.0" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.mediator.MediatorDemo" target="me.yevgeny.training.designpatterns.behavioral.mediator.Mediator">
-      <point x="48.285714285714334" y="-25.5" />
-      <point x="259.6190476190476" y="519.0" />
-      <point x="643.6309523809523" y="519.0" />
-      <point x="643.6309523809523" y="362.0" />
-      <point x="577.5128205128206" y="362.0" />
-      <point x="49.0" y="59.0" />
+      <point x="51.428571428571445" y="-31.5" />
+      <point x="280.8827838827839" y="575.0" />
+      <point x="717.9166666666666" y="575.0" />
+      <point x="717.9166666666666" y="402.0" />
+      <point x="642.518315018315" y="402.0" />
+      <point x="54.5" y="68.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="327.5" y="300.0" />
-  <SelectedNodes>
-    <node>me.yevgeny.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="364.0" y="334.0" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

@@ -13,7 +13,7 @@ import java.lang.reflect.Proxy;
  */
 public class SecurityProxy implements InvocationHandler {
 
-    private Object obj;
+    private final Object obj;
 
     /**
      * We store the wrapped object locally in this proxy
@@ -46,19 +46,16 @@ public class SecurityProxy implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         Object result;
-
         try {
             if (method.getName().contains("post")) {
                 throw new IllegalAccessException("postToTimeline is not allowed");
             }
-
             result = method.invoke(obj, args);
         } catch (InvocationTargetException ie) {
             throw ie.getTargetException();
         } catch (Exception e) {
             throw new RuntimeException("unexpected invocation exception: " + e.getMessage());
         }
-
         return result;
     }
 }

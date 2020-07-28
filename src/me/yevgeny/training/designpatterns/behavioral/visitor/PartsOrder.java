@@ -10,7 +10,8 @@ import java.util.List;
  * @author Yevgeny Kuznetsov
  */
 public class PartsOrder implements AtvPart {
-    private List<AtvPart> parts;
+
+    private final List<AtvPart> parts;
 
     public PartsOrder() {
         this.parts = new ArrayList<>();

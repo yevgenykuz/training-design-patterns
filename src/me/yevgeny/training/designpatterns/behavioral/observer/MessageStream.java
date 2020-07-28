@@ -10,10 +10,12 @@ import java.util.Deque;
  */
 public class MessageStream extends Subject {
 
-    private Deque<String> messageHistory = new ArrayDeque<>();
+    private final Deque<String> messageHistory = new ArrayDeque<>();
 
     @Override
     void setState(String message) {
+        System.out.println("[Observer sets observee state]");
+        System.out.println(message);
         messageHistory.add(message);
         this.notifyObservers();
     }

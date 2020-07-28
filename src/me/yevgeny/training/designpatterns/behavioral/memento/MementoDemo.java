@@ -4,6 +4,7 @@ package me.yevgeny.training.designpatterns.behavioral.memento;
  * @author Yevgeny Kuznetsov
  */
 public class MementoDemo {
+
     public static void main(String[] args) {
         Caretaker caretaker = new Caretaker();
         Employee employee = new Employee();
@@ -19,11 +20,12 @@ public class MementoDemo {
         System.out.println("Employee after changed phone number and saved:\n" + employee);
 
         employee.setPhone("111-1337"); // We do not save this using the caretaker.
+        System.out.println("Employee was changed, but a mistake was made:\n" + employee);
 
         caretaker.revert(employee);
-        System.out.println("Employee was changed, and then reverted to previous save point (444-9876):\n" + employee);
+        System.out.println("Employee was reverted to previous save point:\n" + employee);
 
         caretaker.revert(employee);
-        System.out.println("Employee reverted to original:\n" + employee);
+        System.out.println("Employee reverted again to original:\n" + employee);
     }
 }

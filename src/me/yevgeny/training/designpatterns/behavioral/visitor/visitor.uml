@@ -15,54 +15,6 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.PartsOrder">
-      <point x="-78.75" y="-58.5" />
-      <point x="399.50838744588725" y="232.0" />
-      <point x="192.6693722943723" y="232.0" />
-      <point x="69.99999999999994" y="71.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.Wheel" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart">
-      <point x="-52.5" y="25.5" />
-      <point x="300.16937229437235" y="262.0" />
-      <point x="173.00000000000003" y="262.0" />
-      <point x="173.00000000000003" y="539.0" />
-      <point x="189.29437229437235" y="539.0" />
-      <point x="0.0" y="-25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.VisitorDemo" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsShippingVisitor">
-      <point x="0.0" y="-25.5" />
-      <point x="0.0" y="70.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.VisitorDemo" target="me.yevgeny.training.designpatterns.behavioral.visitor.Oil">
-      <point x="72.42857142857144" y="-25.5" />
-      <point x="494.9369588744587" y="916.0" />
-      <point x="867.6693722943724" y="916.0" />
-      <point x="867.6693722943724" y="322.0" />
-      <point x="900.1693722943724" y="322.0" />
-      <point x="87.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.Fender" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor">
-      <point x="-17.5" y="25.5" />
-      <point x="565.1693722943724" y="292.0" />
-      <point x="512.0083874458873" y="292.0" />
-      <point x="33.75" y="-58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.PartsOrder" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart">
-      <point x="23.333333333333314" y="71.0" />
-      <point x="146.00270562770567" y="242.0" />
-      <point x="162.0" y="242.0" />
-      <point x="162.0" y="539.0" />
-      <point x="159.29437229437235" y="539.0" />
-      <point x="-30.0" y="-25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsShippingVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Wheel">
-      <point x="-16.583333333333343" y="-70.0" />
-      <point x="405.92505411255394" y="696.0" />
-      <point x="313.79437229437235" y="696.0" />
-      <point x="313.79437229437235" y="262.0" />
-      <point x="335.16937229437235" y="262.0" />
-      <point x="-17.5" y="25.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsShippingVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor">
       <point x="16.583333333333314" y="-70.0" />
       <point x="439.0917207792206" y="716.0" />
@@ -71,113 +23,11 @@
       <point x="478.25838744588725" y="499.0" />
       <point x="0.0" y="58.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.PartsOrder" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor">
-      <point x="93.3333333333332" y="71.0" />
-      <point x="216.00270562770555" y="222.0" />
-      <point x="422.00838744588725" y="222.0" />
-      <point x="-56.25" y="-58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.VisitorDemo" target="me.yevgeny.training.designpatterns.behavioral.visitor.PartsOrder">
-      <point x="-48.285714285714334" y="-25.5" />
-      <point x="374.2226731601729" y="906.0" />
-      <point x="26.0" y="906.0" />
-      <point x="26.0" y="232.0" />
-      <point x="52.66937229437235" y="232.0" />
-      <point x="-70.0" y="71.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.Oil" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart">
-      <point x="-17.5" y="25.5" />
-      <point x="795.1693722943724" y="322.0" />
-      <point x="633.4015151515152" y="322.0" />
-      <point x="633.4015151515152" y="509.0" />
-      <point x="279.29437229437235" y="509.0" />
-      <point x="90.0" y="-25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsDisplayVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Wheel">
-      <point x="0.0" y="-58.5" />
-      <point x="555.7916666666667" y="519.0" />
-      <point x="644.4015151515152" y="519.0" />
-      <point x="644.4015151515152" y="192.0" />
-      <point x="440.16937229437235" y="192.0" />
-      <point x="87.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsShippingVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.PartsOrder">
-      <point x="-82.91666666666666" y="-70.0" />
-      <point x="339.5917207792206" y="716.0" />
-      <point x="37.0" y="716.0" />
-      <point x="37.0" y="242.0" />
-      <point x="76.00270562770567" y="242.0" />
-      <point x="-46.666666666666686" y="71.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsShippingVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart">
-      <point x="-49.75" y="-70.0" />
-      <point x="372.75838744588725" y="706.0" />
-      <point x="189.29437229437235" y="706.0" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsDisplayVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Fender">
-      <point x="36.0" y="-58.5" />
-      <point x="591.7916666666667" y="529.0" />
-      <point x="732.2583874458873" y="529.0" />
-      <point x="732.2583874458873" y="182.0" />
-      <point x="600.1693722943724" y="182.0" />
-      <point x="17.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsDisplayVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Oil">
-      <point x="72.0" y="-58.5" />
-      <point x="627.7916666666667" y="539.0" />
-      <point x="820.6515151515152" y="539.0" />
-      <point x="820.6515151515152" y="322.0" />
-      <point x="830.1693722943724" y="322.0" />
-      <point x="17.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.VisitorDemo" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsDisplayVisitor">
-      <point x="24.14285714285711" y="-25.5" />
-      <point x="446.65124458874436" y="896.0" />
-      <point x="628.2583874458873" y="896.0" />
-      <point x="628.2583874458873" y="696.0" />
-      <point x="555.7916666666667" y="696.0" />
-      <point x="0.0" y="58.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsDisplayVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor">
       <point x="-36.0" y="-58.5" />
       <point x="519.7916666666667" y="499.0" />
       <point x="538.2583874458873" y="499.0" />
       <point x="60.0" y="58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsShippingVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Oil">
-      <point x="82.91666666666666" y="-70.0" />
-      <point x="505.42505411255394" y="716.0" />
-      <point x="856.6693722943724" y="716.0" />
-      <point x="856.6693722943724" y="312.0" />
-      <point x="865.1693722943724" y="312.0" />
-      <point x="52.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsShippingVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Fender">
-      <point x="49.75" y="-70.0" />
-      <point x="472.25838744588725" y="706.0" />
-      <point x="785.0265151515152" y="706.0" />
-      <point x="785.0265151515152" y="172.0" />
-      <point x="635.1693722943724" y="172.0" />
-      <point x="52.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.Wheel" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor">
-      <point x="52.5" y="25.5" />
-      <point x="405.16937229437235" y="202.0" />
-      <point x="467.00838744588725" y="202.0" />
-      <point x="-11.25" y="-58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.Oil" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor">
-      <point x="-52.5" y="25.5" />
-      <point x="760.1693722943724" y="312.0" />
-      <point x="557.0083874458873" y="312.0" />
-      <point x="78.75" y="-58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Fender">
-      <point x="11.25" y="-58.5" />
-      <point x="489.50838744588725" y="282.0" />
-      <point x="530.1693722943724" y="282.0" />
-      <point x="-52.5" y="25.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.Fender" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart">
       <point x="-87.5" y="25.5" />
@@ -187,50 +37,32 @@
       <point x="219.29437229437235" y="539.0" />
       <point x="30.0" y="-25.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Oil">
-      <point x="56.25" y="-58.5" />
-      <point x="534.5083874458873" y="302.0" />
-      <point x="725.1693722943724" y="302.0" />
-      <point x="-87.5" y="25.5" />
+    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.Oil" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart">
+      <point x="-17.5" y="25.5" />
+      <point x="795.1693722943724" y="322.0" />
+      <point x="633.4015151515152" y="322.0" />
+      <point x="633.4015151515152" y="509.0" />
+      <point x="279.29437229437235" y="509.0" />
+      <point x="90.0" y="-25.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartsDisplayVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.PartsOrder">
-      <point x="-72.0" y="-58.5" />
-      <point x="483.79166666666674" y="479.0" />
-      <point x="339.04437229437235" y="479.0" />
-      <point x="339.04437229437235" y="242.0" />
-      <point x="169.33603896103898" y="242.0" />
-      <point x="46.66666666666663" y="71.0" />
+    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.Wheel" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart">
+      <point x="-52.5" y="25.5" />
+      <point x="300.16937229437235" y="262.0" />
+      <point x="173.00000000000003" y="262.0" />
+      <point x="173.00000000000003" y="539.0" />
+      <point x="189.29437229437235" y="539.0" />
+      <point x="0.0" y="-25.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.VisitorDemo" target="me.yevgeny.training.designpatterns.behavioral.visitor.Wheel">
-      <point x="-24.142857142857167" y="-25.5" />
-      <point x="398.36553030303014" y="896.0" />
-      <point x="73.79437229437235" y="896.0" />
-      <point x="73.79437229437235" y="252.0" />
-      <point x="265.16937229437235" y="252.0" />
-      <point x="-87.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor">
-      <point x="60.0" y="-25.5" />
-      <point x="249.29437229437235" y="489.0" />
-      <point x="418.25838744588725" y="489.0" />
-      <point x="-60.0" y="58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.VisitorDemo" target="me.yevgeny.training.designpatterns.behavioral.visitor.Fender">
-      <point x="48.28571428571428" y="-25.5" />
-      <point x="470.7941017316016" y="906.0" />
-      <point x="831.6515151515152" y="906.0" />
-      <point x="831.6515151515152" y="162.0" />
-      <point x="670.1693722943724" y="162.0" />
-      <point x="87.5" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPartVisitor" target="me.yevgeny.training.designpatterns.behavioral.visitor.Wheel">
-      <point x="-33.75" y="-58.5" />
-      <point x="444.50838744588725" y="212.0" />
-      <point x="370.16937229437235" y="212.0" />
-      <point x="17.5" y="25.5" />
+    <edge source="me.yevgeny.training.designpatterns.behavioral.visitor.PartsOrder" target="me.yevgeny.training.designpatterns.behavioral.visitor.AtvPart">
+      <point x="23.333333333333314" y="71.0" />
+      <point x="146.00270562770567" y="242.0" />
+      <point x="162.0" y="242.0" />
+      <point x="162.0" y="539.0" />
+      <point x="159.29437229437235" y="539.0" />
+      <point x="-30.0" y="-25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.6643145161290323" x="409.5" y="486.0" />
+  <settings layout="Hierarchic Group" zoom="0.8861629048086359" x="480.5" y="499.5" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.behavioral.visitor.Wheel</node>
   </SelectedNodes>

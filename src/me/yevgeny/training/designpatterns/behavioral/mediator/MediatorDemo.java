@@ -4,6 +4,7 @@ package me.yevgeny.training.designpatterns.behavioral.mediator;
  * @author Yevgeny Kuznetsov
  */
 public class MediatorDemo {
+
     public static void main(String[] args) {
         Mediator mediator = new Mediator();
 

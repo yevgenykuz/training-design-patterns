@@ -7,6 +7,7 @@ import java.util.List;
  * @author Yevgeny Kuznetsov
  */
 public class CommandDemo {
+
     public static void main(String[] args) {
         // this are receivers - they receive the command result:
         Light bedroomLight = new Light();

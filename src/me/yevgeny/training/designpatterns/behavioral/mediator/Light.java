@@ -10,7 +10,7 @@ public class Light {
     /** We use this to save the state of a light. */
     private boolean isOn = false;
 
-    private String location = "";
+    private final String location;
 
     public Light(String location) {
         this.location = location;
@@ -31,10 +31,10 @@ public class Light {
     }
 
     private void on() {
-        System.out.println("Light switched on");
+        System.out.println("Light switched on in " + location);
     }
 
     private void off() {
-        System.out.println("Light switched off");
+        System.out.println("Light switched off " + location);
     }
 }

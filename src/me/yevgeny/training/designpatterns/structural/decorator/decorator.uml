@@ -12,28 +12,6 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="me.yevgeny.training.designpatterns.structural.decorator.MeatDecorator" target="me.yevgeny.training.designpatterns.structural.decorator.Sandwich">
-      <point x="-70.0" y="-48.0" />
-      <point x="35.0" y="233.0" />
-      <point x="75.59090909090907" y="233.0" />
-      <point x="75.59090909090907" y="71.0" />
-      <point x="239.5" y="71.0" />
-      <point x="-60.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.decorator.DecoratorDemo" target="me.yevgeny.training.designpatterns.structural.decorator.Sandwich">
-      <point x="63.375" y="-25.5" />
-      <point x="468.5340909090909" y="384.0" />
-      <point x="565.0" y="384.0" />
-      <point x="565.0" y="71.0" />
-      <point x="359.5" y="71.0" />
-      <point x="60.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.decorator.DecoratorDemo" target="me.yevgeny.training.designpatterns.structural.decorator.DressingDecorator">
-      <point x="-21.125" y="-25.5" />
-      <point x="384.0340909090909" y="374.0" />
-      <point x="344.0" y="374.0" />
-      <point x="0.0" y="48.0" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.structural.decorator.DressingDecorator" target="me.yevgeny.training.designpatterns.structural.decorator.SandwichDecorator">
       <point x="0.0" y="-48.0" />
       <point x="344.0" y="233.0" />
@@ -52,43 +30,23 @@
       <point x="339.5" y="81.0" />
       <point x="40.0" y="25.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.decorator.DressingDecorator" target="me.yevgeny.training.designpatterns.structural.decorator.Sandwich">
-      <point x="76.0" y="-48.0" />
-      <point x="420.0" y="233.0" />
-      <point x="373.4659090909091" y="233.0" />
-      <point x="373.4659090909091" y="91.0" />
-      <point x="319.5" y="91.0" />
-      <point x="20.0" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.decorator.DecoratorDemo" target="me.yevgeny.training.designpatterns.structural.decorator.MeatDecorator">
-      <point x="-63.375" y="-25.5" />
-      <point x="341.7840909090909" y="384.0" />
-      <point x="105.0" y="384.0" />
-      <point x="0.0" y="48.0" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.structural.decorator.MeatDecorator" target="me.yevgeny.training.designpatterns.structural.decorator.SandwichDecorator">
       <point x="0.0" y="-48.0" />
       <point x="105.0" y="233.0" />
       <point x="135.6590909090909" y="233.0" />
       <point x="-87.75" y="48.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.decorator.DecoratorDemo" target="me.yevgeny.training.designpatterns.structural.decorator.SimpleSandwich">
-      <point x="21.125" y="-25.5" />
-      <point x="426.2840909090909" y="374.0" />
-      <point x="484.5" y="374.0" />
-      <point x="0.0" y="25.5" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="282.5" y="227.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="308.5" y="233.5" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.structural.decorator.MeatDecorator</node>
   </SelectedNodes>
   <Categories>
-    <Category>Inner Classes</Category>
-    <Category>Properties</Category>
-    <Category>Methods</Category>
-    <Category>Constructors</Category>
     <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

@@ -10,10 +10,10 @@ package me.yevgeny.training.designpatterns.behavioral.state;
  */
 public class Fan {
 
-    private State fanOffState;
-    private State fanLowState;
-    private State fanMedState;
-    private State fanHighState;
+    private final State fanOffState;
+    private final State fanLowState;
+    private final State fanMedState;
+    private final State fanHighState;
 
     private State state;
 

@@ -11,5 +11,6 @@ package me.yevgeny.training.designpatterns.behavioral.command;
  * @author Yevgeny Kuznetsov
  */
 public interface Command {
+
     void execute();
 }

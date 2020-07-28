@@ -11,7 +11,8 @@ import java.util.Stack;
  * @see EmployeeMemento
  */
 public class Caretaker {
-    private Stack<EmployeeMemento> employeeHistory = new Stack<>();
+
+    private final Stack<EmployeeMemento> employeeHistory = new Stack<>();
 
     public void save(Employee employee) {
         employeeHistory.push(employee.save());

@@ -5,10 +5,10 @@
   <nodes>
     <node x="201.0" y="111.0">me.yevgeny.training.designpatterns.behavioral.state.FanOffState</node>
     <node x="490.79629629629625" y="0.0">me.yevgeny.training.designpatterns.behavioral.state.State</node>
-    <node x="385.3333333333333" y="330.0">me.yevgeny.training.designpatterns.behavioral.state.Fan</node>
     <node x="0.0" y="111.0">me.yevgeny.training.designpatterns.behavioral.state.FanMedState</node>
-    <node x="402.0" y="111.0">me.yevgeny.training.designpatterns.behavioral.state.FanLowState</node>
+    <node x="385.3333333333333" y="330.0">me.yevgeny.training.designpatterns.behavioral.state.Fan</node>
     <node x="377.8333333333333" y="587.0">me.yevgeny.training.designpatterns.behavioral.state.StateDemo</node>
+    <node x="402.0" y="111.0">me.yevgeny.training.designpatterns.behavioral.state.FanLowState</node>
     <node x="603.0" y="111.0">me.yevgeny.training.designpatterns.behavioral.state.FanHighState</node>
   </nodes>
   <notes />
@@ -19,73 +19,11 @@
       <point x="596.3796296296297" y="91.0" />
       <point x="15.083333333333371" y="25.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.FanLowState" target="me.yevgeny.training.designpatterns.behavioral.state.State">
-      <point x="0.0" y="-59.5" />
-      <point x="492.5" y="91.0" />
-      <point x="566.2129629629629" y="91.0" />
-      <point x="-15.083333333333371" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.Fan" target="me.yevgeny.training.designpatterns.behavioral.state.FanLowState">
-      <point x="-5.5" y="-103.5" />
-      <point x="456.8333333333333" y="250.0" />
-      <point x="432.16666666666663" y="250.0" />
-      <point x="-60.33333333333337" y="59.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.Fan" target="me.yevgeny.training.designpatterns.behavioral.state.State">
-      <point x="71.5" y="-103.5" />
-      <point x="533.8333333333333" y="310.0" />
-      <point x="805.5" y="310.0" />
-      <point x="805.5" y="71.0" />
-      <point x="656.712962962963" y="71.0" />
-      <point x="75.41666666666673" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.Fan" target="me.yevgeny.training.designpatterns.behavioral.state.FanMedState">
-      <point x="-71.5" y="-103.5" />
-      <point x="390.8333333333333" y="310.0" />
-      <point x="30.16666666666663" y="310.0" />
-      <point x="-60.33333333333334" y="59.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.FanMedState" target="me.yevgeny.training.designpatterns.behavioral.state.Fan">
-      <point x="0.0" y="59.5" />
-      <point x="90.5" y="300.0" />
-      <point x="401.8333333333333" y="300.0" />
-      <point x="-60.5" y="-103.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.Fan" target="me.yevgeny.training.designpatterns.behavioral.state.FanHighState">
-      <point x="27.5" y="-103.5" />
-      <point x="489.8333333333333" y="270.0" />
-      <point x="633.1666666666666" y="270.0" />
-      <point x="-60.333333333333314" y="59.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.state.FanMedState" target="me.yevgeny.training.designpatterns.behavioral.state.State">
       <point x="0.0" y="-59.5" />
       <point x="90.5" y="71.0" />
       <point x="505.87962962962956" y="71.0" />
       <point x="-75.41666666666669" y="25.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.FanOffState" target="me.yevgeny.training.designpatterns.behavioral.state.Fan">
-      <point x="0.0" y="59.5" />
-      <point x="291.5" y="270.0" />
-      <point x="434.8333333333333" y="270.0" />
-      <point x="-27.5" y="-103.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.FanHighState" target="me.yevgeny.training.designpatterns.behavioral.state.Fan">
-      <point x="60.33333333333337" y="59.5" />
-      <point x="753.8333333333334" y="290.0" />
-      <point x="511.8333333333333" y="290.0" />
-      <point x="49.5" y="-103.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.FanLowState" target="me.yevgeny.training.designpatterns.behavioral.state.Fan">
-      <point x="0.0" y="59.5" />
-      <point x="492.5" y="250.0" />
-      <point x="467.8333333333333" y="250.0" />
-      <point x="5.5" y="-103.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.Fan" target="me.yevgeny.training.designpatterns.behavioral.state.FanOffState">
-      <point x="-38.5" y="-103.5" />
-      <point x="423.8333333333333" y="280.0" />
-      <point x="231.16666666666669" y="280.0" />
-      <point x="-60.333333333333336" y="59.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.behavioral.state.FanOffState" target="me.yevgeny.training.designpatterns.behavioral.state.State">
       <point x="0.0" y="-59.5" />
@@ -93,14 +31,14 @@
       <point x="536.0462962962963" y="81.0" />
       <point x="-45.25" y="25.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.behavioral.state.StateDemo" target="me.yevgeny.training.designpatterns.behavioral.state.Fan">
-      <point x="42.25" y="-25.5" />
-      <point x="504.5833333333333" y="562.0" />
-      <point x="500.8333333333333" y="562.0" />
-      <point x="38.5" y="103.5" />
+    <edge source="me.yevgeny.training.designpatterns.behavioral.state.FanLowState" target="me.yevgeny.training.designpatterns.behavioral.state.State">
+      <point x="0.0" y="-59.5" />
+      <point x="492.5" y="91.0" />
+      <point x="566.2129629629629" y="91.0" />
+      <point x="-15.083333333333371" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="403.0" y="319.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="399.0" y="325.0" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.behavioral.state.FanHighState</node>
   </SelectedNodes>

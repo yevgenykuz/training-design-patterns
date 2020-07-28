@@ -8,6 +8,7 @@ package me.yevgeny.training.designpatterns.structural.decorator;
  * @see Sandwich
  */
 public class SimpleSandwich implements Sandwich {
+
     @Override
     public String make() {
         return "Simple Sandwich";

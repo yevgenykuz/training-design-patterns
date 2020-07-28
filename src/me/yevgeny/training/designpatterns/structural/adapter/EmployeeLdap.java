@@ -10,10 +10,10 @@ package me.yevgeny.training.designpatterns.structural.adapter;
  */
 public class EmployeeLdap {
 
-    private String cn;
-    private String surname;
-    private String givenName;
-    private String mail;
+    private final String cn;
+    private final String surname;
+    private final String givenName;
+    private final String mail;
 
     public EmployeeLdap(String cn, String surname, String givenName, String mail) {
         this.cn = cn;

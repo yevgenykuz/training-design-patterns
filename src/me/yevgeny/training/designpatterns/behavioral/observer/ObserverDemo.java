@@ -4,6 +4,7 @@ package me.yevgeny.training.designpatterns.behavioral.observer;
  * @author Yevgeny Kuznetsov
  */
 public class ObserverDemo {
+
     public static void main(String[] args) {
         Subject subject = new MessageStream();
 

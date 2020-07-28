@@ -4,65 +4,21 @@
   <OriginalElement>me.yevgeny.training.designpatterns.structural.adapter</OriginalElement>
   <nodes>
     <node x="646.6566666666666" y="213.0">me.yevgeny.training.designpatterns.structural.adapter.EmployeeAdapterLdap</node>
-    <node x="333.03722222222217" y="213.0">me.yevgeny.training.designpatterns.structural.adapter.EmployeeDB</node>
     <node x="365.0566666666666" y="547.0">me.yevgeny.training.designpatterns.structural.adapter.AdapterDemo</node>
+    <node x="333.03722222222217" y="213.0">me.yevgeny.training.designpatterns.structural.adapter.EmployeeDB</node>
     <node x="44.03722222222217" y="213.0">me.yevgeny.training.designpatterns.structural.adapter.EmployeeAdapterCSV</node>
-    <node x="744.2872222222222" y="0.0">me.yevgeny.training.designpatterns.structural.adapter.EmployeeLdap</node>
     <node x="0.0" y="11.5">me.yevgeny.training.designpatterns.structural.adapter.EmployeeCSV</node>
+    <node x="744.2872222222222" y="0.0">me.yevgeny.training.designpatterns.structural.adapter.EmployeeLdap</node>
     <node x="290.5566666666666" y="446.0">me.yevgeny.training.designpatterns.structural.adapter.EmployeeClient</node>
     <node x="420.73055555555555" y="23.0">me.yevgeny.training.designpatterns.structural.adapter.Employee</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeClient" target="me.yevgeny.training.designpatterns.structural.adapter.EmployeeCSV">
-      <point x="-92.75" y="-25.5" />
-      <point x="303.8066666666666" y="426.0" />
-      <point x="22.53722222222217" y="426.0" />
-      <point x="-69.0" y="70.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeClient" target="me.yevgeny.training.designpatterns.structural.adapter.Employee">
-      <point x="-13.25" y="-25.5" />
-      <point x="383.3066666666666" y="396.0" />
-      <point x="322.53722222222217" y="396.0" />
-      <point x="322.53722222222217" y="193.0" />
-      <point x="462.43055555555554" y="193.0" />
-      <point x="-27.80000000000001" y="58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeClient" target="me.yevgeny.training.designpatterns.structural.adapter.EmployeeDB">
-      <point x="13.25" y="-25.5" />
-      <point x="409.8066666666666" y="396.0" />
-      <point x="477.53722222222217" y="396.0" />
-      <point x="0.0" y="81.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeClient" target="me.yevgeny.training.designpatterns.structural.adapter.EmployeeAdapterLdap">
-      <point x="39.75" y="-25.5" />
-      <point x="436.3066666666666" y="406.0" />
-      <point x="785.6566666666666" y="406.0" />
-      <point x="0.0" y="81.5" />
-    </edge>
     <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeAdapterLdap" target="me.yevgeny.training.designpatterns.structural.adapter.Employee">
       <point x="-92.66666666666674" y="-81.5" />
       <point x="692.9899999999999" y="183.0" />
       <point x="545.8305555555555" y="183.0" />
       <point x="55.60000000000002" y="58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeAdapterCSV" target="me.yevgeny.training.designpatterns.structural.adapter.EmployeeCSV">
-      <point x="-89.33333333333331" y="-81.5" />
-      <point x="88.70388888888886" y="193.0" />
-      <point x="115.0" y="193.0" />
-      <point x="23.0" y="70.0" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeAdapterLdap" target="me.yevgeny.training.designpatterns.structural.adapter.EmployeeLdap">
-      <point x="92.66666666666663" y="-81.5" />
-      <point x="878.3233333333333" y="193.0" />
-      <point x="856.7872222222222" y="193.0" />
-      <point x="-37.5" y="81.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.AdapterDemo" target="me.yevgeny.training.designpatterns.structural.adapter.EmployeeClient">
-      <point x="-56.33333333333337" y="-25.5" />
-      <point x="393.22333333333324" y="522.0" />
-      <point x="343.5566666666666" y="522.0" />
-      <point x="-53.0" y="25.5" />
     </edge>
     <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeAdapterCSV" target="me.yevgeny.training.designpatterns.structural.adapter.Employee">
       <point x="89.33333333333331" y="-81.5" />
@@ -76,30 +32,8 @@
       <point x="490.23055555555555" y="193.0" />
       <point x="0.0" y="58.5" />
     </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeClient" target="me.yevgeny.training.designpatterns.structural.adapter.EmployeeLdap">
-      <point x="66.25" y="-25.5" />
-      <point x="462.8066666666666" y="416.0" />
-      <point x="935.1566666666666" y="416.0" />
-      <point x="935.1566666666666" y="193.0" />
-      <point x="931.7872222222222" y="193.0" />
-      <point x="37.5" y="81.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.AdapterDemo" target="me.yevgeny.training.designpatterns.structural.adapter.Employee">
-      <point x="56.333333333333314" y="-25.5" />
-      <point x="505.88999999999993" y="522.0" />
-      <point x="632.5372222222222" y="522.0" />
-      <point x="632.5372222222222" y="193.0" />
-      <point x="518.0305555555556" y="193.0" />
-      <point x="27.80000000000001" y="58.5" />
-    </edge>
-    <edge source="me.yevgeny.training.designpatterns.structural.adapter.EmployeeClient" target="me.yevgeny.training.designpatterns.structural.adapter.EmployeeAdapterCSV">
-      <point x="-39.75" y="-25.5" />
-      <point x="356.8066666666666" y="406.0" />
-      <point x="178.03722222222217" y="406.0" />
-      <point x="0.0" y="81.5" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="555.5" y="299.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="548.5" y="305.0" />
   <SelectedNodes>
     <node>me.yevgeny.training.designpatterns.structural.adapter.Employee</node>
   </SelectedNodes>

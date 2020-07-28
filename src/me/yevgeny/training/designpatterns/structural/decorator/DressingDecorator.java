@@ -9,6 +9,7 @@ package me.yevgeny.training.designpatterns.structural.decorator;
  * @see SandwichDecorator
  */
 public class DressingDecorator extends SandwichDecorator {
+
     /**
      * Can accept other decorators as well, allowing to daisy-chain decorators
      */

@@ -4,6 +4,7 @@ package me.yevgeny.training.designpatterns.creational.abstractfactory;
  * @author Yevgeny Kuznetsov
  */
 public class AbstractFactoryDemo {
+
     public static void main(String[] args) {
         // We pass 777 to get the amex card factory from the abstract factory:
         CreditCardFactory abstractFactory = CreditCardFactory.getCreditCardFactory(777);

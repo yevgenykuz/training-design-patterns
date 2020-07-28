@@ -9,7 +9,7 @@ package me.yevgeny.training.designpatterns.behavioral.mediator;
  */
 public class TurnOffAllLightsCommand implements Command {
 
-    private Mediator mediator;
+    private final Mediator mediator;
 
     public TurnOffAllLightsCommand(Mediator mediator) {
         this.mediator = mediator;

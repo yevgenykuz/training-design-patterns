@@ -11,7 +11,7 @@ import java.util.List;
 public class AllLightsCommand implements Command {
 
     /** We store lights receivers here to handle multiple objects with a single execution */
-    private List<Light> lights;
+    private final List<Light> lights;
 
     public AllLightsCommand(List<Light> lights) {
         this.lights = lights;

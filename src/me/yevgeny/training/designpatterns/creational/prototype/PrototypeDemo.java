@@ -4,6 +4,7 @@ package me.yevgeny.training.designpatterns.creational.prototype;
  * @author Yevgeny Kuznetsov
  */
 public class PrototypeDemo {
+
     public static void main(String[] args) {
         Registry registry = new Registry();
 

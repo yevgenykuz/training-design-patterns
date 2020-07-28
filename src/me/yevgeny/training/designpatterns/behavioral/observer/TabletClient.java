@@ -17,7 +17,7 @@ public class TabletClient extends Observer {
     }
 
     public void addMessage(String message) {
-        subject.setState(message + " - sent from tablet");
+        subject.setState("Sent from tablet: " + message);
     }
 
     @Override

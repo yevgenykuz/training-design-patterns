@@ -5,5 +5,6 @@ package me.yevgeny.training.designpatterns.structural.facade;
  * @author Yevgeny Kuznetsov
  */
 public interface Shape {
+
     void draw();
 }

@@ -7,6 +7,7 @@ package me.yevgeny.training.designpatterns.structural.proxy;
  * @see TwitterService
  */
 public class TwitterServiceStub implements TwitterService {
+
     @Override
     public String getTimeline(String screenName) {
         return "A timeline example";
