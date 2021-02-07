@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.yevgenyk.training.designpatterns.behavioral.mediator</OriginalElement>
+  <nodes>
+    <node x="223.5" y="0.0">com.yevgenyk.training.designpatterns.behavioral.mediator.Command</node>
+    <node x="0.0" y="259.0">com.yevgenyk.training.designpatterns.behavioral.mediator.Light</node>
+    <node x="298.0" y="109.0">com.yevgenyk.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand</node>
+    <node x="392.0" y="259.0">com.yevgenyk.training.designpatterns.behavioral.mediator.MediatorDemo</node>
+    <node x="171.0" y="259.0">com.yevgenyk.training.designpatterns.behavioral.mediator.Mediator</node>
+    <node x="0.0" y="109.0">com.yevgenyk.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.yevgenyk.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand" target="com.yevgenyk.training.designpatterns.behavioral.mediator.Command">
+      <point x="0.0" y="-52.5" />
+      <point x="139.0" y="84.0" />
+      <point x="254.5" y="84.0" />
+      <point x="-31.0" y="29.5" />
+    </edge>
+    <edge source="com.yevgenyk.training.designpatterns.behavioral.mediator.TurnOnAllLightsCommand" target="com.yevgenyk.training.designpatterns.behavioral.mediator.Command">
+      <point x="0.0" y="-52.5" />
+      <point x="432.0" y="84.0" />
+      <point x="316.5" y="84.0" />
+      <point x="31.0" y="29.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="283.0" y="215.5" />
+  <SelectedNodes>
+    <node>com.yevgenyk.training.designpatterns.behavioral.mediator.TurnOffAllLightsCommand</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

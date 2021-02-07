@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.yevgenyk.training.designpatterns.behavioral.interpreter</OriginalElement>
+  <nodes>
+    <node x="515.0" y="109.0">com.yevgenyk.training.designpatterns.behavioral.interpreter.AndExpression</node>
+    <node x="248.0" y="109.0">com.yevgenyk.training.designpatterns.behavioral.interpreter.OrExpression</node>
+    <node x="282.0" y="0.0">com.yevgenyk.training.designpatterns.behavioral.interpreter.Expression</node>
+    <node x="0.0" y="281.0">com.yevgenyk.training.designpatterns.behavioral.interpreter.InterpreterDemo</node>
+    <node x="0.0" y="120.0">com.yevgenyk.training.designpatterns.behavioral.interpreter.TerminalExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.yevgenyk.training.designpatterns.behavioral.interpreter.TerminalExpression" target="com.yevgenyk.training.designpatterns.behavioral.interpreter.Expression">
+      <point x="0.0" y="-52.5" />
+      <point x="114.0" y="84.0" />
+      <point x="311.8333333333333" y="84.0" />
+      <point x="-59.666666666666686" y="29.5" />
+    </edge>
+    <edge source="com.yevgenyk.training.designpatterns.behavioral.interpreter.OrExpression" target="com.yevgenyk.training.designpatterns.behavioral.interpreter.Expression">
+      <point x="0.0" y="-63.5" />
+      <point x="0.0" y="29.5" />
+    </edge>
+    <edge source="com.yevgenyk.training.designpatterns.behavioral.interpreter.AndExpression" target="com.yevgenyk.training.designpatterns.behavioral.interpreter.Expression">
+      <point x="0.0" y="-63.5" />
+      <point x="643.0" y="84.0" />
+      <point x="431.16666666666663" y="84.0" />
+      <point x="59.66666666666663" y="29.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="385.5" y="181.0" />
+  <SelectedNodes>
+    <node>com.yevgenyk.training.designpatterns.behavioral.interpreter.TerminalExpression</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
